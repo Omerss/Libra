@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LibraAlchemy.exe" version="1.0.0.5" publicKeyToken="9cdde43f5f86ac3b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LibraAlchemy" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LibraAlchemy.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.SqlServerCe" version="4.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LibraAlchemy.exe" size="435712">
+      <assemblyIdentity name="LibraAlchemy" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CAEe9UIKiKPivNwWDth60VYuQJvyht8jmgoLVvxPnFc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Database1.sdf" size="217088" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>srsA1VyfLa5tJlHyvC2TrOJd2q3AfRlGxyRu0S2qoLg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LibraAlchemy.exe.config" size="501">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vtDtQmMNYt1/jyKxTApA9riWHANce2Wcg549Ahai6Ss=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\red-minus.png" size="5336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bwGRKJhgrHS3WjK311sMCEqncdfZ0HmxfA9gvTMQxjM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\undo-icon-75426.png" size="5036">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zNDRaVMoFBTYDoQZw7GsrakGYm1EA4zwaKSWYoGGxh4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-JKDB53B\Aviad" issuerKeyHash="886f63ddf809df11c130b8a0e06cf863b61d2023" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>K7YNNaKpMbtWff4W1UYoCkwbOoW7hnvteAT1KnevKQ4=</DigestValue></Reference></SignedInfo><SignatureValue>sZwTUFlb1SOactvUNxBgicit4B3ILEFoz2gpmMf3OvYNOc74mQA+LngdP8EJAG9gWQ6vFN11lDnf/DdMHNCy8L5OU8faYfvaFzytHKBVUfHZ8YDpuSFWVF/v9BmPohiTXqavLLRUnD64B0ErMHMFHmyCNLLkOMh103TU2xpujEc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sz2nQZc1x2zu4XODk018Cvk+imKNgKG/+IVtkeEklqOlMZPZng6Aqv3+mzQCkEZiu3W/aSJhF6yy228Cz+uNJUgb6ovj5WTnf6kA1ftPHR02cNbjF1wTGmSOuukPM8kcpLODBHtJqvCondXdoSf3FXQUTvdclewV61MSrsAw9K8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0e29af772af50478ed7b86bb853a1b4c0a2846d516fe7d56bb31a9a2350db62b" Description="" Url=""><as:assemblyIdentity name="LibraAlchemy.exe" version="1.0.0.5" publicKeyToken="9cdde43f5f86ac3b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-JKDB53B\Aviad</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4HwUHFm1iwheb1mPMZ5KOTF5CYxia8+RAxWl7AtXvbQ=</DigestValue></Reference></SignedInfo><SignatureValue>h+awFKd7ICpkuGR73USw6eLA4ViMu9oQuDyiF4Vua/12tTFlBkH0c+AxQYSF/pQfz9qjHH+dyvuYFJHPOrsYdxHSYrrcKpcOYFjo3+o2NbkcKSK6cmQ/fD/mghbgV8Vy5m4NzDO4vNUtpGX6y+YKb49aj1V3AuS5Rcp0jIYnO9U=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sz2nQZc1x2zu4XODk018Cvk+imKNgKG/+IVtkeEklqOlMZPZng6Aqv3+mzQCkEZiu3W/aSJhF6yy228Cz+uNJUgb6ovj5WTnf6kA1ftPHR02cNbjF1wTGmSOuukPM8kcpLODBHtJqvCondXdoSf3FXQUTvdclewV61MSrsAw9K8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQV6N+gqE8loFM0jkEMWGqUjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEoASwBEAEIANQAzAEIAXABBAHYAaQBhAGQwHhcNMTYwODEwMTUwOTA2WhcNMTcwODEwMjEwOTA2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEoASwBEAEIANQAzAEIAXABBAHYAaQBhAGQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALM9p0GXNcds7uFzg5NNfAr5PopijYChv/iFbZHhJJajpTGT2Z4OgKr9/ps0ApBGYrt1v2kiYRessttvAs/rjSVIG+qL4+Vk53+pANX7Tx0dNnDW4xdcExpkjrrpDzPJHKSzgwR7SarwqJ3V3aEn9xV0FE73XJXsFetTEq7AMPSvAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAmgO1wGzdgh5SMm0h8IbK7Fwanhbp3yNHBznp1siWwMSIl12/Ddg1DdhQBd+bR7epsKQ8YCFv6MfH7KHVGClXVMeyx6xWe/t0s/BGUpI7uyApz8CvNHA7wZOK0sDsWj0qviftWq24rC7xLcw3kdoiESbXE6Eg+LXIzg9XxLs3LTY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

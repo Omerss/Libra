@@ -1,0 +1,21 @@
+c:\users\aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\bin\Debug\LibraAlchemy.exe.config
+c:\users\aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\bin\Debug\Database1.sdf
+c:\users\aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\bin\Debug\LibraAlchemy.exe
+c:\users\aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\bin\Debug\LibraAlchemy.pdb
+c:\users\aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.csprojResolveAssemblyReference.cache
+c:\users\aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.Properties.Resources.resources
+c:\users\aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.csproj.GenerateResource.Cache
+c:\users\aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.exe
+c:\users\aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.pdb
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.Form1.resources
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.UpForm.resources
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\bin\Debug\LibraAlchemy.exe.manifest
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\bin\Debug\LibraAlchemy.application
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.exe.manifest
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.application
+D:\Personal\stuff\Libra\AlchemyLab\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.Form1.resources
+D:\Personal\stuff\Libra\AlchemyLab\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.Properties.Resources.resources
+D:\Personal\stuff\Libra\AlchemyLab\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.UpForm.resources
+D:\Personal\stuff\Libra\AlchemyLab\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.csproj.GenerateResource.Cache
+D:\Personal\stuff\Libra\AlchemyLab\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.exe
+D:\Personal\stuff\Libra\AlchemyLab\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.pdb
