@@ -1,0 +1,15 @@
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\bin\Release\Database1.sdf
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\bin\Release\LibraAlchemy.exe.config
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\bin\Release\LibraAlchemy.exe.manifest
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\bin\Release\LibraAlchemy.application
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\bin\Release\LibraAlchemy.exe
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\bin\Release\LibraAlchemy.pdb
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Release\LibraAlchemy.Form1.resources
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Release\LibraAlchemy.Properties.Resources.resources
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Release\LibraAlchemy.UpForm.resources
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Release\LibraAlchemy.csproj.GenerateResource.Cache
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Release\LibraAlchemy.exe.manifest
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Release\LibraAlchemy.application
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Release\LibraAlchemy.exe
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Release\LibraAlchemy.pdb
+C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Release\LibraAlchemy.csprojResolveAssemblyReference.cache
