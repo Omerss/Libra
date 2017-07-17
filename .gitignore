@@ -6,6 +6,11 @@
 *.exe
 *.o
 *.so
+*.application
+*.manifest
+*.pdb
+*.Cache
+*.FileListAbsolute.txt
 
 # Packages #
 ############
