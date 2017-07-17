@@ -64,29 +64,36 @@ namespace LibraAlchemy
         //
         private void UpdateAlchemyMasterTab()
         {
-            //In potion list is the list of all the products and specials in the potion.
-            InPotionList = new List<object>();
-            //Update the alchemist
-            alchemist.GetAllIngredients();
-            alchemist.GetAllProcedures();
-            alchemist.GetAllSpecials();
-            alchemist.GetAllPotions();
-            //Clear the Controls from all items and text
-            MasterAlchemyLV.Items.Clear();
-            MasterEffectLV.Items.Clear();
-            MasterSimilarPotionLV.Items.Clear();
-            MasterIngredientCB.Items.Clear();
-            MasterTechniqueCB.Items.Clear();
-            MasterSpecialCB.Items.Clear();
-            //Disable the form of the potion details
-            DisablePotionForm();
-            //Fill the Comboboxes with data
-            MasterIngredientCB.Items.AddRange(alchemist.Ingredient_List.ToArray());
-            MasterIngredientCB.DisplayMember = "Name";
-            MasterTechniqueCB.Items.AddRange(alchemist.Procedure_List.ToArray());
-            MasterTechniqueCB.DisplayMember = "Name";
-            MasterSpecialCB.Items.AddRange(alchemist.Special_List.ToArray());
-            MasterSpecialCB.DisplayMember = "Name";
+            try
+            {
+                //In potion list is the list of all the products and specials in the potion.
+                InPotionList = new List<object>();
+                //Update the alchemist
+                alchemist.GetAllIngredients();
+                alchemist.GetAllProcedures();
+                alchemist.GetAllSpecials();
+                alchemist.GetAllPotions();
+                //Clear the Controls from all items and text
+                MasterAlchemyLV.Items.Clear();
+                MasterEffectLV.Items.Clear();
+                MasterSimilarPotionLV.Items.Clear();
+                MasterIngredientCB.Items.Clear();
+                MasterTechniqueCB.Items.Clear();
+                MasterSpecialCB.Items.Clear();
+                //Disable the form of the potion details
+                DisablePotionForm();
+                //Fill the Comboboxes with data
+                MasterIngredientCB.Items.AddRange(alchemist.Ingredient_List.ToArray());
+                MasterIngredientCB.DisplayMember = "Name";
+                MasterTechniqueCB.Items.AddRange(alchemist.Procedure_List.ToArray());
+                MasterTechniqueCB.DisplayMember = "Name";
+                MasterSpecialCB.Items.AddRange(alchemist.Special_List.ToArray());
+                MasterSpecialCB.DisplayMember = "Name";
+            }
+            catch (Exception e){
+                MessageBox.Show(e.ToString());
+            }
+ 
         }
 
         private void DisablePotionForm()

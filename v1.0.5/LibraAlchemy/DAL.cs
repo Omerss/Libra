@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 using System.Data.SqlServerCe;
 using System.IO;
 using System.Data;
-
+using System.Configuration;
 
 namespace LibraAlchemy
 {
     class DAL
     {
         //Need to do something about this address...
-        private static string DB_ADDRESS = "datasource="+"C:\\Users\\Aviad\\documents\\visual studio 2012\\Projects\\LibraAlchemy\\LibraAlchemy\\Database1.sdf";
-
-        //private static string DB_ADDRESS = "Data Source=" + System.IO.Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), "Database1.sdf");
+        private static string DB_ADDRESS = String.Format("datasource={0}", ConfigurationSettings.AppSettings.Get("DatabasePath"));
 
         public static string IDListToString(List<int> l)
         {

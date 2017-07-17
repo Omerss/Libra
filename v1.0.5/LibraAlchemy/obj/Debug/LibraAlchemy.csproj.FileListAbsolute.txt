@@ -13,3 +13,19 @@ C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\b
 C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\bin\Debug\LibraAlchemy.application
 C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.exe.manifest
 C:\Users\Aviad\documents\visual studio 2012\Projects\LibraAlchemy\LibraAlchemy\obj\Debug\LibraAlchemy.application
+D:\Projects\Libra\v1.0.5\LibraAlchemy\bin\Debug\Database1.sdf
+D:\Projects\Libra\v1.0.5\LibraAlchemy\bin\Debug\LibraAlchemy.exe.config
+D:\Projects\Libra\v1.0.5\LibraAlchemy\bin\Debug\LibraAlchemy.exe.manifest
+D:\Projects\Libra\v1.0.5\LibraAlchemy\bin\Debug\LibraAlchemy.application
+D:\Projects\Libra\v1.0.5\LibraAlchemy\bin\Debug\LibraAlchemy.exe
+D:\Projects\Libra\v1.0.5\LibraAlchemy\bin\Debug\LibraAlchemy.pdb
+D:\Projects\Libra\v1.0.5\LibraAlchemy\bin\Debug\System.Data.SqlServerCe.dll
+D:\Projects\Libra\v1.0.5\LibraAlchemy\obj\Debug\LibraAlchemy.Form1.resources
+D:\Projects\Libra\v1.0.5\LibraAlchemy\obj\Debug\LibraAlchemy.Properties.Resources.resources
+D:\Projects\Libra\v1.0.5\LibraAlchemy\obj\Debug\LibraAlchemy.UpForm.resources
+D:\Projects\Libra\v1.0.5\LibraAlchemy\obj\Debug\LibraAlchemy.csproj.GenerateResource.Cache
+D:\Projects\Libra\v1.0.5\LibraAlchemy\obj\Debug\LibraAlchemy.exe.manifest
+D:\Projects\Libra\v1.0.5\LibraAlchemy\obj\Debug\LibraAlchemy.application
+D:\Projects\Libra\v1.0.5\LibraAlchemy\obj\Debug\LibraAlchemy.exe
+D:\Projects\Libra\v1.0.5\LibraAlchemy\obj\Debug\LibraAlchemy.pdb
+D:\Projects\Libra\v1.0.5\LibraAlchemy\obj\Debug\LibraAlchemy.csprojResolveAssemblyReference.cache
