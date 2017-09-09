@@ -54,6 +54,9 @@ namespace LibraAlchemy
                 case 6:
                     UpdatePowerLevelTab();
                     break;
+                case 7:
+                    UpdateAddPotionTab();
+                    break;
                 default:
                     break;
             }
@@ -1301,6 +1304,94 @@ namespace LibraAlchemy
                 uf.ShowDialog();
             }
         }
+
+        private void UpdateAddPotionTab()
+        {
+            //Update Alchemist
+            alchemist.GetAllIngredients();
+            alchemist.GetAllProcedures();
+            alchemist.GetAllEffects();
+            //Clear the items
+            AddPotionEffectLV.Items.Clear();
+            AddPotEffectCB.Items.Clear();
+            AddPotionNameCB.Clear();
+            AddPotionCreatorTB.Clear();
+            AddPotionDescriptionTB.Clear();
+            //Refill the CB
+            AddPotEffectCB.Items.AddRange(alchemist.Effect_List.ToArray());
+            AddPotEffectCB.DisplayMember = "Name";
+            AddPotSubmitButton.Enabled = false; //This activates once the potion has 3 effects and a name.
+        }
+
+        private void AddPotEffectCB_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //If the potion has 5 effects, this will do nothing
+            if (AddPotEffectCB.SelectedIndex < 0 || AddPotionEffectLV.Items.Count >= 5)
+                return;
+            Effect effect = AddPotEffectCB.SelectedItem as Effect;
+            //Add to LV
+            ListViewItem LVI = new ListViewItem(effect.Name);
+            LVI.ToolTipText = effect.Description;
+            LVI.Tag = effect;
+            AddPotionEffectLV.Items.Add(LVI);
+            Button b = new Button();
+            b.BackgroundImage = Properties.Resources.red_minus;
+            b.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            b.BackColor = SystemColors.Control;
+            //Add event handler...
+            b.Click += new EventHandler(AddPotionEffectRemoveButton_Click);
+            b.Tag = LVI;
+            AddPotionEffectLV.AddEmbeddedControl(b, 1, LVI.Index);
+            //Remove the effect from the CB
+            AddPotEffectCB.Items.Remove(effect);
+            //Refresh Data on the other Listviews
+            AddPotionRefresh();
+        }
+
+        private void AddPotionEffectRemoveButton_Click(object sender, EventArgs e)
+        {
+            Effect effect = ((sender as Button).Tag as ListViewItem).Tag as Effect;
+            //Add the effect into the CB
+            AddPotEffectCB.Items.Add(effect);
+            //Remove the item and the button from the Listview
+            AddPotionEffectLV.RemoveEmbeddedControl(sender as Button);
+            AddPotionEffectLV.Items.Remove(((sender as Button).Tag as ListViewItem));
+            AddPotionRefresh();
+        }
+
+        private void AddPotionNameCB_TextChanged(object sender, EventArgs e)
+        {
+            AddPotionRefresh();
+        }
+
+        private void AddPotionRefresh()
+        {
+            if (AddPotionEffectLV.Items.Count >= 3 && AddPotionNameCB.Text != "")
+                AddPotSubmitButton.Enabled = true;
+            else
+                AddPotSubmitButton.Enabled = false;
+        }
+
+        private void AddPotSubmitButton_Click(object sender, EventArgs e)
+        {
+            Potion p = new Potion();
+            p.Name = AddPotionNameCB.Text;
+            p.Creator = AddPotionCreatorTB.Text;
+            p.Description = AddPotionDescriptionTB.Text;
+            p.Effects = new List<FinalEffect>();
+            foreach (ListViewItem item in AddPotionEffectLV.Items)
+            {
+                Effect effect = item.Tag as Effect;
+                FinalEffect fe = new FinalEffect();
+                fe.Name = effect.Name;
+                fe.Level = effect.Level;
+                fe.ID = effect.ID;
+                p.Effects.Add(fe);
+            }
+            alchemist.AddNewPotion(p);
+            UpdateAddPotionTab();
+        }
+
 
     }
 }

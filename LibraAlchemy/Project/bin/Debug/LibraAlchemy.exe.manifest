@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LibraAlchemy.exe" size="456160">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LibraAlchemy.exe" size="459264">
       <assemblyIdentity name="LibraAlchemy" version="1.0.6.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>AkH18s/i+dGqZZoUg/tyj+oaRQXxSHaYzJBu/bglYoo=</dsig:DigestValue>
+        <dsig:DigestValue>Tch+/gKzTPr+tvvRBinOV1aiOn2Nq9bIDrsWsCrGJYE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -71,16 +71,16 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>q0xNU0DN09JUqrk10eeC6qe9caVh3CrU1mcZsUy+GY4=</dsig:DigestValue>
+      <dsig:DigestValue>ayjz6zUGhA9NL9Z0Ll30jBqbJj6/CGJveyKdj7mzVkY=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="LibraAlchemy.exe.config" size="602">
+  <file name="LibraAlchemy.exe.config" size="648">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>uov/LdUvDzrYEFiQOBAEyTs7fm2SrsVObtGsA6TkiPo=</dsig:DigestValue>
+      <dsig:DigestValue>2hPidDLGulzTNsejW5Ri4ATdvykDOXglI15wjhC66DE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\red-minus.png" size="5336">
