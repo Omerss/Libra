@@ -38,10 +38,14 @@
             this.MasterCreatorNameTB = new System.Windows.Forms.TextBox();
             this.label40 = new System.Windows.Forms.Label();
             this.MasterPotionNameTB = new System.Windows.Forms.TextBox();
+            this.MasterSimilarPotionLV = new LibraAlchemy.ListViewEx();
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label39 = new System.Windows.Forms.Label();
             this.MasterPotionDescriptionTB = new System.Windows.Forms.TextBox();
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
+            this.MasterEffectLV = new LibraAlchemy.ListViewEx();
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.MasterAddSpecialButton = new System.Windows.Forms.Button();
             this.label36 = new System.Windows.Forms.Label();
             this.MasterSpecialCB = new System.Windows.Forms.ComboBox();
@@ -51,6 +55,10 @@
             this.label35 = new System.Windows.Forms.Label();
             this.MasterIngredientCB = new System.Windows.Forms.ComboBox();
             this.label33 = new System.Windows.Forms.Label();
+            this.MasterAlchemyLV = new LibraAlchemy.ListViewEx();
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -59,6 +67,9 @@
             this.label22 = new System.Windows.Forms.Label();
             this.EditEffectsSaveButton = new System.Windows.Forms.Button();
             this.EditCountersEffectCB = new System.Windows.Forms.ComboBox();
+            this.EditCountersLV = new LibraAlchemy.ListViewEx();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.EditCountersCounterCB = new System.Windows.Forms.ComboBox();
@@ -79,6 +90,9 @@
             this.EditProductCommentTB = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.EditProductMainEffectCB = new System.Windows.Forms.ComboBox();
+            this.EditProductEffectsLV = new LibraAlchemy.ListViewEx();
+            this.EditProductLVColumn1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.EditProductLVColumn2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.EditProductAddEffectButton = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.EditProductEffectCB = new System.Windows.Forms.ComboBox();
@@ -110,6 +124,8 @@
             this.EditPotionDeleteButton = new System.Windows.Forms.Button();
             this.EditPotionSaveButton = new System.Windows.Forms.Button();
             this.label47 = new System.Windows.Forms.Label();
+            this.EditPotionEffectsLV = new LibraAlchemy.ListViewEx();
+            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label46 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.EditPotionCB = new System.Windows.Forms.ComboBox();
@@ -122,8 +138,15 @@
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label51 = new System.Windows.Forms.Label();
+            this.EffectInfoPotionLV = new LibraAlchemy.ListViewEx();
+            this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label50 = new System.Windows.Forms.Label();
+            this.EffectInfoProductLV = new LibraAlchemy.ListViewEx();
+            this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label49 = new System.Windows.Forms.Label();
+            this.EffectInfoEffectLV = new LibraAlchemy.ListViewEx();
+            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.EffectInfoAddButton = new System.Windows.Forms.Button();
             this.label48 = new System.Windows.Forms.Label();
             this.EffectInfoCB = new System.Windows.Forms.ComboBox();
@@ -135,6 +158,10 @@
             this.label23 = new System.Windows.Forms.Label();
             this.EditSpecialSaveButton = new System.Windows.Forms.Button();
             this.EditSpecialOriginEffectCB = new System.Windows.Forms.ComboBox();
+            this.EditSpecialTransmuteLV = new LibraAlchemy.ListViewEx();
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label24 = new System.Windows.Forms.Label();
             this.EditSpecialDestEffectCB = new System.Windows.Forms.ComboBox();
             this.label26 = new System.Windows.Forms.Label();
@@ -157,46 +184,19 @@
             this.EffectPowerDownButton = new System.Windows.Forms.Button();
             this.EffectPowerUpButton = new System.Windows.Forms.Button();
             this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.label53 = new System.Windows.Forms.Label();
-            this.AddPotEffectCB = new System.Windows.Forms.ComboBox();
-            this.AddPotSubmitButton = new System.Windows.Forms.Button();
-            this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
             this.AddPotionCreatorTB = new System.Windows.Forms.TextBox();
             this.label56 = new System.Windows.Forms.Label();
             this.AddPotionNameCB = new System.Windows.Forms.TextBox();
             this.label57 = new System.Windows.Forms.Label();
             this.AddPotionDescriptionTB = new System.Windows.Forms.TextBox();
-            this.MasterSimilarPotionLV = new LibraAlchemy.ListViewEx();
-            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.MasterEffectLV = new LibraAlchemy.ListViewEx();
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.MasterAlchemyLV = new LibraAlchemy.ListViewEx();
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.EditCountersLV = new LibraAlchemy.ListViewEx();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.EditProductEffectsLV = new LibraAlchemy.ListViewEx();
-            this.EditProductLVColumn1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.EditProductLVColumn2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.EditPotionEffectsLV = new LibraAlchemy.ListViewEx();
-            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.EffectInfoPotionLV = new LibraAlchemy.ListViewEx();
-            this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.EffectInfoProductLV = new LibraAlchemy.ListViewEx();
-            this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.EffectInfoEffectLV = new LibraAlchemy.ListViewEx();
-            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.EditSpecialTransmuteLV = new LibraAlchemy.ListViewEx();
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label54 = new System.Windows.Forms.Label();
+            this.AddPotSubmitButton = new System.Windows.Forms.Button();
             this.AddPotionEffectLV = new LibraAlchemy.ListViewEx();
             this.columnHeader18 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader19 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label53 = new System.Windows.Forms.Label();
+            this.AddPotEffectCB = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -234,7 +234,7 @@
             this.tabControl1.HotTrack = true;
             this.tabControl1.ItemSize = new System.Drawing.Size(60, 18);
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(7);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.tabControl1.RightToLeftLayout = true;
@@ -251,9 +251,9 @@
             this.tabPage1.BackColor = System.Drawing.SystemColors.Window;
             this.tabPage1.Controls.Add(this.panel9);
             this.tabPage1.Location = new System.Drawing.Point(10, 28);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(7);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(7);
             this.tabPage1.Size = new System.Drawing.Size(2759, 1367);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "ניהול אלכימיה";
@@ -284,7 +284,7 @@
             this.panel9.Controls.Add(this.label33);
             this.panel9.Controls.Add(this.MasterAlchemyLV);
             this.panel9.Location = new System.Drawing.Point(5, 11);
-            this.panel9.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.panel9.Margin = new System.Windows.Forms.Padding(7);
             this.panel9.Name = "panel9";
             this.panel9.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.panel9.Size = new System.Drawing.Size(2725, 1298);
@@ -305,7 +305,7 @@
             // 
             this.MasterAddPotionButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.MasterAddPotionButton.Location = new System.Drawing.Point(142, 839);
-            this.MasterAddPotionButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.MasterAddPotionButton.Margin = new System.Windows.Forms.Padding(7);
             this.MasterAddPotionButton.Name = "MasterAddPotionButton";
             this.MasterAddPotionButton.Size = new System.Drawing.Size(331, 54);
             this.MasterAddPotionButton.TabIndex = 47;
@@ -328,7 +328,7 @@
             // 
             this.MasterCreatorNameTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.MasterCreatorNameTB.Location = new System.Drawing.Point(14, 567);
-            this.MasterCreatorNameTB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.MasterCreatorNameTB.Margin = new System.Windows.Forms.Padding(7);
             this.MasterCreatorNameTB.Name = "MasterCreatorNameTB";
             this.MasterCreatorNameTB.Size = new System.Drawing.Size(608, 43);
             this.MasterCreatorNameTB.TabIndex = 45;
@@ -348,10 +348,33 @@
             // 
             this.MasterPotionNameTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.MasterPotionNameTB.Location = new System.Drawing.Point(14, 464);
-            this.MasterPotionNameTB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.MasterPotionNameTB.Margin = new System.Windows.Forms.Padding(7);
             this.MasterPotionNameTB.Name = "MasterPotionNameTB";
             this.MasterPotionNameTB.Size = new System.Drawing.Size(608, 43);
             this.MasterPotionNameTB.TabIndex = 43;
+            // 
+            // MasterSimilarPotionLV
+            // 
+            this.MasterSimilarPotionLV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.MasterSimilarPotionLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader10});
+            this.MasterSimilarPotionLV.Font = new System.Drawing.Font("David", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MasterSimilarPotionLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
+            this.MasterSimilarPotionLV.Location = new System.Drawing.Point(642, 417);
+            this.MasterSimilarPotionLV.Margin = new System.Windows.Forms.Padding(7);
+            this.MasterSimilarPotionLV.MultiSelect = false;
+            this.MasterSimilarPotionLV.Name = "MasterSimilarPotionLV";
+            this.MasterSimilarPotionLV.RightToLeftLayout = true;
+            this.MasterSimilarPotionLV.ShowItemToolTips = true;
+            this.MasterSimilarPotionLV.Size = new System.Drawing.Size(431, 849);
+            this.MasterSimilarPotionLV.TabIndex = 42;
+            this.MasterSimilarPotionLV.UseCompatibleStateImageBehavior = false;
+            this.MasterSimilarPotionLV.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader10
+            // 
+            this.columnHeader10.Text = "";
+            this.columnHeader10.Width = 178;
             // 
             // label39
             // 
@@ -368,7 +391,7 @@
             // 
             this.MasterPotionDescriptionTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.MasterPotionDescriptionTB.Location = new System.Drawing.Point(14, 674);
-            this.MasterPotionDescriptionTB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.MasterPotionDescriptionTB.Margin = new System.Windows.Forms.Padding(7);
             this.MasterPotionDescriptionTB.Multiline = true;
             this.MasterPotionDescriptionTB.Name = "MasterPotionDescriptionTB";
             this.MasterPotionDescriptionTB.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -399,11 +422,34 @@
             this.label38.TabIndex = 37;
             this.label38.Text = "רשימת השפעות סופית";
             // 
+            // MasterEffectLV
+            // 
+            this.MasterEffectLV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.MasterEffectLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader8});
+            this.MasterEffectLV.Font = new System.Drawing.Font("David", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MasterEffectLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
+            this.MasterEffectLV.Location = new System.Drawing.Point(1092, 417);
+            this.MasterEffectLV.Margin = new System.Windows.Forms.Padding(7);
+            this.MasterEffectLV.MultiSelect = false;
+            this.MasterEffectLV.Name = "MasterEffectLV";
+            this.MasterEffectLV.RightToLeftLayout = true;
+            this.MasterEffectLV.ShowItemToolTips = true;
+            this.MasterEffectLV.Size = new System.Drawing.Size(431, 849);
+            this.MasterEffectLV.TabIndex = 35;
+            this.MasterEffectLV.UseCompatibleStateImageBehavior = false;
+            this.MasterEffectLV.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "";
+            this.columnHeader8.Width = 176;
+            // 
             // MasterAddSpecialButton
             // 
             this.MasterAddSpecialButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.MasterAddSpecialButton.Location = new System.Drawing.Point(891, 263);
-            this.MasterAddSpecialButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.MasterAddSpecialButton.Margin = new System.Windows.Forms.Padding(7);
             this.MasterAddSpecialButton.Name = "MasterAddSpecialButton";
             this.MasterAddSpecialButton.Size = new System.Drawing.Size(215, 54);
             this.MasterAddSpecialButton.TabIndex = 34;
@@ -428,7 +474,7 @@
             this.MasterSpecialCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.MasterSpecialCB.FormattingEnabled = true;
             this.MasterSpecialCB.Location = new System.Drawing.Point(1120, 265);
-            this.MasterSpecialCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.MasterSpecialCB.Margin = new System.Windows.Forms.Padding(7);
             this.MasterSpecialCB.Name = "MasterSpecialCB";
             this.MasterSpecialCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.MasterSpecialCB.Size = new System.Drawing.Size(403, 43);
@@ -438,7 +484,7 @@
             // 
             this.MasterAddProductButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.MasterAddProductButton.Location = new System.Drawing.Point(469, 145);
-            this.MasterAddProductButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.MasterAddProductButton.Margin = new System.Windows.Forms.Padding(7);
             this.MasterAddProductButton.Name = "MasterAddProductButton";
             this.MasterAddProductButton.Size = new System.Drawing.Size(215, 54);
             this.MasterAddProductButton.TabIndex = 31;
@@ -463,7 +509,7 @@
             this.MasterTechniqueCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.MasterTechniqueCB.FormattingEnabled = true;
             this.MasterTechniqueCB.Location = new System.Drawing.Point(698, 145);
-            this.MasterTechniqueCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.MasterTechniqueCB.Margin = new System.Windows.Forms.Padding(7);
             this.MasterTechniqueCB.Name = "MasterTechniqueCB";
             this.MasterTechniqueCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.MasterTechniqueCB.Size = new System.Drawing.Size(403, 43);
@@ -486,7 +532,7 @@
             this.MasterIngredientCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.MasterIngredientCB.FormattingEnabled = true;
             this.MasterIngredientCB.Location = new System.Drawing.Point(1120, 145);
-            this.MasterIngredientCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.MasterIngredientCB.Margin = new System.Windows.Forms.Padding(7);
             this.MasterIngredientCB.Name = "MasterIngredientCB";
             this.MasterIngredientCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.MasterIngredientCB.Size = new System.Drawing.Size(403, 43);
@@ -504,15 +550,50 @@
             this.label33.TabIndex = 26;
             this.label33.Text = "ניהול אלכימיה";
             // 
+            // MasterAlchemyLV
+            // 
+            this.MasterAlchemyLV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.MasterAlchemyLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader6,
+            this.columnHeader7,
+            this.columnHeader12});
+            this.MasterAlchemyLV.Font = new System.Drawing.Font("David", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MasterAlchemyLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.MasterAlchemyLV.Location = new System.Drawing.Point(1549, 103);
+            this.MasterAlchemyLV.Margin = new System.Windows.Forms.Padding(7);
+            this.MasterAlchemyLV.MultiSelect = false;
+            this.MasterAlchemyLV.Name = "MasterAlchemyLV";
+            this.MasterAlchemyLV.RightToLeftLayout = true;
+            this.MasterAlchemyLV.ShowItemToolTips = true;
+            this.MasterAlchemyLV.Size = new System.Drawing.Size(1133, 1164);
+            this.MasterAlchemyLV.TabIndex = 18;
+            this.MasterAlchemyLV.UseCompatibleStateImageBehavior = false;
+            this.MasterAlchemyLV.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "";
+            this.columnHeader6.Width = 200;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "";
+            this.columnHeader7.Width = 140;
+            // 
+            // columnHeader12
+            // 
+            this.columnHeader12.Text = "";
+            this.columnHeader12.Width = 140;
+            // 
             // tabPage2
             // 
             this.tabPage2.AutoScroll = true;
             this.tabPage2.BackColor = System.Drawing.SystemColors.Window;
             this.tabPage2.Controls.Add(this.panel8);
             this.tabPage2.Location = new System.Drawing.Point(10, 28);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(7);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(7);
             this.tabPage2.Size = new System.Drawing.Size(2759, 1367);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "עריכת תוצרים והשפעות";
@@ -523,7 +604,7 @@
             this.panel8.Controls.Add(this.panel2);
             this.panel8.Controls.Add(this.panel1);
             this.panel8.Location = new System.Drawing.Point(532, 11);
-            this.panel8.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.panel8.Margin = new System.Windows.Forms.Padding(7);
             this.panel8.Name = "panel8";
             this.panel8.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.panel8.Size = new System.Drawing.Size(2191, 1278);
@@ -551,7 +632,7 @@
             this.panel2.Controls.Add(this.label15);
             this.panel2.Controls.Add(this.EditEffectsEffectCB);
             this.panel2.Location = new System.Drawing.Point(54, 9);
-            this.panel2.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.panel2.Margin = new System.Windows.Forms.Padding(7);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1167, 1234);
             this.panel2.TabIndex = 28;
@@ -560,7 +641,7 @@
             // 
             this.EditCountersAddCounterButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditCountersAddCounterButton.Location = new System.Drawing.Point(264, 680);
-            this.EditCountersAddCounterButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditCountersAddCounterButton.Margin = new System.Windows.Forms.Padding(7);
             this.EditCountersAddCounterButton.Name = "EditCountersAddCounterButton";
             this.EditCountersAddCounterButton.Size = new System.Drawing.Size(226, 96);
             this.EditCountersAddCounterButton.TabIndex = 26;
@@ -573,7 +654,7 @@
             this.EditEffectCommulativeCheckbox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditEffectCommulativeCheckbox.AutoSize = true;
             this.EditEffectCommulativeCheckbox.Location = new System.Drawing.Point(889, 480);
-            this.EditEffectCommulativeCheckbox.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditEffectCommulativeCheckbox.Margin = new System.Windows.Forms.Padding(7);
             this.EditEffectCommulativeCheckbox.Name = "EditEffectCommulativeCheckbox";
             this.EditEffectCommulativeCheckbox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.EditEffectCommulativeCheckbox.Size = new System.Drawing.Size(228, 39);
@@ -596,7 +677,7 @@
             // 
             this.EditEffectsSaveButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditEffectsSaveButton.Location = new System.Drawing.Point(534, 538);
-            this.EditEffectsSaveButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditEffectsSaveButton.Margin = new System.Windows.Forms.Padding(7);
             this.EditEffectsSaveButton.Name = "EditEffectsSaveButton";
             this.EditEffectsSaveButton.Size = new System.Drawing.Size(376, 51);
             this.EditEffectsSaveButton.TabIndex = 33;
@@ -610,12 +691,40 @@
             this.EditCountersEffectCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditCountersEffectCB.FormattingEnabled = true;
             this.EditCountersEffectCB.Location = new System.Drawing.Point(828, 723);
-            this.EditCountersEffectCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditCountersEffectCB.Margin = new System.Windows.Forms.Padding(7);
             this.EditCountersEffectCB.Name = "EditCountersEffectCB";
             this.EditCountersEffectCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.EditCountersEffectCB.Size = new System.Drawing.Size(305, 43);
             this.EditCountersEffectCB.TabIndex = 26;
             this.EditCountersEffectCB.SelectedIndexChanged += new System.EventHandler(this.EditCountersEffectCB_SelectedIndexChanged);
+            // 
+            // EditCountersLV
+            // 
+            this.EditCountersLV.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.EditCountersLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2});
+            this.EditCountersLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.EditCountersLV.Location = new System.Drawing.Point(264, 790);
+            this.EditCountersLV.Margin = new System.Windows.Forms.Padding(7);
+            this.EditCountersLV.MultiSelect = false;
+            this.EditCountersLV.Name = "EditCountersLV";
+            this.EditCountersLV.RightToLeftLayout = true;
+            this.EditCountersLV.ShowItemToolTips = true;
+            this.EditCountersLV.Size = new System.Drawing.Size(870, 408);
+            this.EditCountersLV.TabIndex = 26;
+            this.EditCountersLV.UseCompatibleStateImageBehavior = false;
+            this.EditCountersLV.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "השפעה";
+            this.columnHeader1.Width = 266;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "מחיקה";
+            this.columnHeader2.Width = 100;
             // 
             // label21
             // 
@@ -647,7 +756,7 @@
             this.EditCountersCounterCB.DropDownWidth = 133;
             this.EditCountersCounterCB.FormattingEnabled = true;
             this.EditCountersCounterCB.Location = new System.Drawing.Point(504, 723);
-            this.EditCountersCounterCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditCountersCounterCB.Margin = new System.Windows.Forms.Padding(7);
             this.EditCountersCounterCB.Name = "EditCountersCounterCB";
             this.EditCountersCounterCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.EditCountersCounterCB.Size = new System.Drawing.Size(305, 43);
@@ -668,7 +777,7 @@
             // 
             this.EditEffectsCommentTB.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditEffectsCommentTB.Location = new System.Drawing.Point(264, 415);
-            this.EditEffectsCommentTB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditEffectsCommentTB.Margin = new System.Windows.Forms.Padding(7);
             this.EditEffectsCommentTB.Name = "EditEffectsCommentTB";
             this.EditEffectsCommentTB.Size = new System.Drawing.Size(870, 43);
             this.EditEffectsCommentTB.TabIndex = 30;
@@ -688,7 +797,7 @@
             // 
             this.EditEffectsDescriptionTB.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditEffectsDescriptionTB.Location = new System.Drawing.Point(264, 279);
-            this.EditEffectsDescriptionTB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditEffectsDescriptionTB.Margin = new System.Windows.Forms.Padding(7);
             this.EditEffectsDescriptionTB.Multiline = true;
             this.EditEffectsDescriptionTB.Name = "EditEffectsDescriptionTB";
             this.EditEffectsDescriptionTB.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -721,7 +830,7 @@
             // 
             this.EditEffectsNameTB.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditEffectsNameTB.Location = new System.Drawing.Point(264, 156);
-            this.EditEffectsNameTB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditEffectsNameTB.Margin = new System.Windows.Forms.Padding(7);
             this.EditEffectsNameTB.Name = "EditEffectsNameTB";
             this.EditEffectsNameTB.Size = new System.Drawing.Size(452, 43);
             this.EditEffectsNameTB.TabIndex = 24;
@@ -744,7 +853,7 @@
             this.EditEffectsEffectCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditEffectsEffectCB.FormattingEnabled = true;
             this.EditEffectsEffectCB.Location = new System.Drawing.Point(735, 156);
-            this.EditEffectsEffectCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditEffectsEffectCB.Margin = new System.Windows.Forms.Padding(7);
             this.EditEffectsEffectCB.Name = "EditEffectsEffectCB";
             this.EditEffectsEffectCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.EditEffectsEffectCB.Size = new System.Drawing.Size(403, 43);
@@ -766,7 +875,7 @@
             this.panel1.Controls.Add(this.EditProductIngredientCB);
             this.panel1.Controls.Add(this.EditProductUndoButton);
             this.panel1.Location = new System.Drawing.Point(1255, 9);
-            this.panel1.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.panel1.Margin = new System.Windows.Forms.Padding(7);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(908, 1236);
             this.panel1.TabIndex = 27;
@@ -792,9 +901,9 @@
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.EditProductMainEffectCB);
             this.groupBox1.Location = new System.Drawing.Point(35, 937);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(7);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(7);
             this.groupBox1.Size = new System.Drawing.Size(831, 265);
             this.groupBox1.TabIndex = 24;
             this.groupBox1.TabStop = false;
@@ -803,7 +912,7 @@
             // 
             this.EditProductSaveButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditProductSaveButton.Location = new System.Drawing.Point(14, 85);
-            this.EditProductSaveButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditProductSaveButton.Margin = new System.Windows.Forms.Padding(7);
             this.EditProductSaveButton.Name = "EditProductSaveButton";
             this.EditProductSaveButton.Size = new System.Drawing.Size(194, 154);
             this.EditProductSaveButton.TabIndex = 23;
@@ -826,7 +935,7 @@
             // 
             this.EditProductCommentTB.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditProductCommentTB.Location = new System.Drawing.Point(222, 187);
-            this.EditProductCommentTB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditProductCommentTB.Margin = new System.Windows.Forms.Padding(7);
             this.EditProductCommentTB.Name = "EditProductCommentTB";
             this.EditProductCommentTB.Size = new System.Drawing.Size(590, 43);
             this.EditProductCommentTB.TabIndex = 21;
@@ -848,16 +957,44 @@
             this.EditProductMainEffectCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditProductMainEffectCB.FormattingEnabled = true;
             this.EditProductMainEffectCB.Location = new System.Drawing.Point(222, 85);
-            this.EditProductMainEffectCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditProductMainEffectCB.Margin = new System.Windows.Forms.Padding(7);
             this.EditProductMainEffectCB.Name = "EditProductMainEffectCB";
             this.EditProductMainEffectCB.Size = new System.Drawing.Size(583, 43);
             this.EditProductMainEffectCB.TabIndex = 18;
+            // 
+            // EditProductEffectsLV
+            // 
+            this.EditProductEffectsLV.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.EditProductEffectsLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.EditProductLVColumn1,
+            this.EditProductLVColumn2});
+            this.EditProductEffectsLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.EditProductEffectsLV.Location = new System.Drawing.Point(35, 346);
+            this.EditProductEffectsLV.Margin = new System.Windows.Forms.Padding(7);
+            this.EditProductEffectsLV.MultiSelect = false;
+            this.EditProductEffectsLV.Name = "EditProductEffectsLV";
+            this.EditProductEffectsLV.RightToLeftLayout = true;
+            this.EditProductEffectsLV.ShowItemToolTips = true;
+            this.EditProductEffectsLV.Size = new System.Drawing.Size(825, 573);
+            this.EditProductEffectsLV.TabIndex = 17;
+            this.EditProductEffectsLV.UseCompatibleStateImageBehavior = false;
+            this.EditProductEffectsLV.View = System.Windows.Forms.View.Details;
+            // 
+            // EditProductLVColumn1
+            // 
+            this.EditProductLVColumn1.Text = "השפעה";
+            this.EditProductLVColumn1.Width = 256;
+            // 
+            // EditProductLVColumn2
+            // 
+            this.EditProductLVColumn2.Text = "מחיקה";
+            this.EditProductLVColumn2.Width = 90;
             // 
             // EditProductAddEffectButton
             // 
             this.EditProductAddEffectButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditProductAddEffectButton.Location = new System.Drawing.Point(35, 279);
-            this.EditProductAddEffectButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditProductAddEffectButton.Margin = new System.Windows.Forms.Padding(7);
             this.EditProductAddEffectButton.Name = "EditProductAddEffectButton";
             this.EditProductAddEffectButton.Size = new System.Drawing.Size(287, 54);
             this.EditProductAddEffectButton.TabIndex = 15;
@@ -882,7 +1019,7 @@
             this.EditProductEffectCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditProductEffectCB.FormattingEnabled = true;
             this.EditProductEffectCB.Location = new System.Drawing.Point(336, 279);
-            this.EditProductEffectCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditProductEffectCB.Margin = new System.Windows.Forms.Padding(7);
             this.EditProductEffectCB.Name = "EditProductEffectCB";
             this.EditProductEffectCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.EditProductEffectCB.Size = new System.Drawing.Size(403, 43);
@@ -905,7 +1042,7 @@
             this.EditProductProcedureCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditProductProcedureCB.FormattingEnabled = true;
             this.EditProductProcedureCB.Location = new System.Drawing.Point(35, 156);
-            this.EditProductProcedureCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditProductProcedureCB.Margin = new System.Windows.Forms.Padding(7);
             this.EditProductProcedureCB.Name = "EditProductProcedureCB";
             this.EditProductProcedureCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.EditProductProcedureCB.Size = new System.Drawing.Size(403, 43);
@@ -929,7 +1066,7 @@
             this.EditProductIngredientCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditProductIngredientCB.FormattingEnabled = true;
             this.EditProductIngredientCB.Location = new System.Drawing.Point(457, 156);
-            this.EditProductIngredientCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditProductIngredientCB.Margin = new System.Windows.Forms.Padding(7);
             this.EditProductIngredientCB.Name = "EditProductIngredientCB";
             this.EditProductIngredientCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.EditProductIngredientCB.Size = new System.Drawing.Size(403, 43);
@@ -942,7 +1079,7 @@
             this.EditProductUndoButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("EditProductUndoButton.BackgroundImage")));
             this.EditProductUndoButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.EditProductUndoButton.Location = new System.Drawing.Point(758, 236);
-            this.EditProductUndoButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditProductUndoButton.Margin = new System.Windows.Forms.Padding(7);
             this.EditProductUndoButton.Name = "EditProductUndoButton";
             this.EditProductUndoButton.Size = new System.Drawing.Size(107, 100);
             this.EditProductUndoButton.TabIndex = 16;
@@ -955,9 +1092,9 @@
             this.tabPage3.BackColor = System.Drawing.SystemColors.Window;
             this.tabPage3.Controls.Add(this.panel4);
             this.tabPage3.Location = new System.Drawing.Point(10, 28);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(7);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(7);
             this.tabPage3.Size = new System.Drawing.Size(2759, 1367);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "עריכת מרכיבים וטכניקות";
@@ -982,7 +1119,7 @@
             this.panel4.Controls.Add(this.EditIngredientCB);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Location = new System.Drawing.Point(1577, 13);
-            this.panel4.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.panel4.Margin = new System.Windows.Forms.Padding(7);
             this.panel4.Name = "panel4";
             this.panel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.panel4.Size = new System.Drawing.Size(1153, 654);
@@ -1011,7 +1148,7 @@
             // EditTechniqueButton
             // 
             this.EditTechniqueButton.Location = new System.Drawing.Point(61, 471);
-            this.EditTechniqueButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditTechniqueButton.Margin = new System.Windows.Forms.Padding(7);
             this.EditTechniqueButton.Name = "EditTechniqueButton";
             this.EditTechniqueButton.Size = new System.Drawing.Size(252, 152);
             this.EditTechniqueButton.TabIndex = 13;
@@ -1022,7 +1159,7 @@
             // EditTechCommentTB
             // 
             this.EditTechCommentTB.Location = new System.Drawing.Point(327, 571);
-            this.EditTechCommentTB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditTechCommentTB.Margin = new System.Windows.Forms.Padding(7);
             this.EditTechCommentTB.Name = "EditTechCommentTB";
             this.EditTechCommentTB.Size = new System.Drawing.Size(767, 43);
             this.EditTechCommentTB.TabIndex = 12;
@@ -1030,7 +1167,7 @@
             // EditTechNameTB
             // 
             this.EditTechNameTB.Location = new System.Drawing.Point(327, 468);
-            this.EditTechNameTB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditTechNameTB.Margin = new System.Windows.Forms.Padding(7);
             this.EditTechNameTB.Name = "EditTechNameTB";
             this.EditTechNameTB.Size = new System.Drawing.Size(342, 43);
             this.EditTechNameTB.TabIndex = 11;
@@ -1050,7 +1187,7 @@
             this.EditTechCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditTechCB.FormattingEnabled = true;
             this.EditTechCB.Location = new System.Drawing.Point(693, 468);
-            this.EditTechCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditTechCB.Margin = new System.Windows.Forms.Padding(7);
             this.EditTechCB.Name = "EditTechCB";
             this.EditTechCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.EditTechCB.Size = new System.Drawing.Size(403, 43);
@@ -1091,7 +1228,7 @@
             // EditIngredientButton
             // 
             this.EditIngredientButton.Location = new System.Drawing.Point(61, 154);
-            this.EditIngredientButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditIngredientButton.Margin = new System.Windows.Forms.Padding(7);
             this.EditIngredientButton.Name = "EditIngredientButton";
             this.EditIngredientButton.Size = new System.Drawing.Size(252, 154);
             this.EditIngredientButton.TabIndex = 5;
@@ -1102,7 +1239,7 @@
             // EditIngredientCommentTB
             // 
             this.EditIngredientCommentTB.Location = new System.Drawing.Point(327, 257);
-            this.EditIngredientCommentTB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditIngredientCommentTB.Margin = new System.Windows.Forms.Padding(7);
             this.EditIngredientCommentTB.Name = "EditIngredientCommentTB";
             this.EditIngredientCommentTB.Size = new System.Drawing.Size(767, 43);
             this.EditIngredientCommentTB.TabIndex = 4;
@@ -1110,7 +1247,7 @@
             // EditIngredientNameTB
             // 
             this.EditIngredientNameTB.Location = new System.Drawing.Point(327, 154);
-            this.EditIngredientNameTB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditIngredientNameTB.Margin = new System.Windows.Forms.Padding(7);
             this.EditIngredientNameTB.Name = "EditIngredientNameTB";
             this.EditIngredientNameTB.Size = new System.Drawing.Size(342, 43);
             this.EditIngredientNameTB.TabIndex = 3;
@@ -1130,7 +1267,7 @@
             this.EditIngredientCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditIngredientCB.FormattingEnabled = true;
             this.EditIngredientCB.Location = new System.Drawing.Point(693, 154);
-            this.EditIngredientCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditIngredientCB.Margin = new System.Windows.Forms.Padding(7);
             this.EditIngredientCB.Name = "EditIngredientCB";
             this.EditIngredientCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.EditIngredientCB.Size = new System.Drawing.Size(403, 43);
@@ -1154,9 +1291,9 @@
             this.tabPage4.BackColor = System.Drawing.SystemColors.Window;
             this.tabPage4.Controls.Add(this.panel5);
             this.tabPage4.Location = new System.Drawing.Point(10, 28);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(7);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(7);
             this.tabPage4.Size = new System.Drawing.Size(2759, 1367);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "עריכת שיקויים";
@@ -1178,7 +1315,7 @@
             this.panel5.Controls.Add(this.label44);
             this.panel5.Controls.Add(this.EditPotionDescriptionTB);
             this.panel5.Location = new System.Drawing.Point(1218, 22);
-            this.panel5.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.panel5.Margin = new System.Windows.Forms.Padding(7);
             this.panel5.Name = "panel5";
             this.panel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.panel5.Size = new System.Drawing.Size(1521, 799);
@@ -1187,7 +1324,7 @@
             // EditPotionDeleteButton
             // 
             this.EditPotionDeleteButton.Location = new System.Drawing.Point(37, 642);
-            this.EditPotionDeleteButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditPotionDeleteButton.Margin = new System.Windows.Forms.Padding(7);
             this.EditPotionDeleteButton.Name = "EditPotionDeleteButton";
             this.EditPotionDeleteButton.Size = new System.Drawing.Size(240, 96);
             this.EditPotionDeleteButton.TabIndex = 59;
@@ -1198,7 +1335,7 @@
             // EditPotionSaveButton
             // 
             this.EditPotionSaveButton.Location = new System.Drawing.Point(1255, 642);
-            this.EditPotionSaveButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditPotionSaveButton.Margin = new System.Windows.Forms.Padding(7);
             this.EditPotionSaveButton.Name = "EditPotionSaveButton";
             this.EditPotionSaveButton.Size = new System.Drawing.Size(240, 96);
             this.EditPotionSaveButton.TabIndex = 58;
@@ -1215,6 +1352,28 @@
             this.label47.Size = new System.Drawing.Size(225, 35);
             this.label47.TabIndex = 57;
             this.label47.Text = "השפעות השיקוי";
+            // 
+            // EditPotionEffectsLV
+            // 
+            this.EditPotionEffectsLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader13});
+            this.EditPotionEffectsLV.Font = new System.Drawing.Font("David", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EditPotionEffectsLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
+            this.EditPotionEffectsLV.Location = new System.Drawing.Point(1101, 239);
+            this.EditPotionEffectsLV.Margin = new System.Windows.Forms.Padding(7);
+            this.EditPotionEffectsLV.MultiSelect = false;
+            this.EditPotionEffectsLV.Name = "EditPotionEffectsLV";
+            this.EditPotionEffectsLV.RightToLeftLayout = true;
+            this.EditPotionEffectsLV.ShowItemToolTips = true;
+            this.EditPotionEffectsLV.Size = new System.Drawing.Size(389, 385);
+            this.EditPotionEffectsLV.TabIndex = 56;
+            this.EditPotionEffectsLV.UseCompatibleStateImageBehavior = false;
+            this.EditPotionEffectsLV.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader13
+            // 
+            this.columnHeader13.Text = "";
+            this.columnHeader13.Width = 120;
             // 
             // label46
             // 
@@ -1242,7 +1401,7 @@
             this.EditPotionCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditPotionCB.FormattingEnabled = true;
             this.EditPotionCB.Location = new System.Drawing.Point(1101, 138);
-            this.EditPotionCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditPotionCB.Margin = new System.Windows.Forms.Padding(7);
             this.EditPotionCB.Name = "EditPotionCB";
             this.EditPotionCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.EditPotionCB.Size = new System.Drawing.Size(389, 43);
@@ -1262,7 +1421,7 @@
             // EditPotionCreatorTB
             // 
             this.EditPotionCreatorTB.Location = new System.Drawing.Point(37, 138);
-            this.EditPotionCreatorTB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditPotionCreatorTB.Margin = new System.Windows.Forms.Padding(7);
             this.EditPotionCreatorTB.Name = "EditPotionCreatorTB";
             this.EditPotionCreatorTB.Size = new System.Drawing.Size(536, 43);
             this.EditPotionCreatorTB.TabIndex = 51;
@@ -1280,7 +1439,7 @@
             // EditPotionNameTB
             // 
             this.EditPotionNameTB.Location = new System.Drawing.Point(593, 138);
-            this.EditPotionNameTB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditPotionNameTB.Margin = new System.Windows.Forms.Padding(7);
             this.EditPotionNameTB.Name = "EditPotionNameTB";
             this.EditPotionNameTB.Size = new System.Drawing.Size(475, 43);
             this.EditPotionNameTB.TabIndex = 49;
@@ -1298,7 +1457,7 @@
             // EditPotionDescriptionTB
             // 
             this.EditPotionDescriptionTB.Location = new System.Drawing.Point(37, 239);
-            this.EditPotionDescriptionTB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditPotionDescriptionTB.Margin = new System.Windows.Forms.Padding(7);
             this.EditPotionDescriptionTB.Multiline = true;
             this.EditPotionDescriptionTB.Name = "EditPotionDescriptionTB";
             this.EditPotionDescriptionTB.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -1311,9 +1470,9 @@
             this.tabPage5.BackColor = System.Drawing.SystemColors.Window;
             this.tabPage5.Controls.Add(this.panel6);
             this.tabPage5.Location = new System.Drawing.Point(10, 28);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(7);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(7);
             this.tabPage5.Size = new System.Drawing.Size(2759, 1367);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "מידע על השפעות";
@@ -1331,7 +1490,7 @@
             this.panel6.Controls.Add(this.label48);
             this.panel6.Controls.Add(this.EffectInfoCB);
             this.panel6.Location = new System.Drawing.Point(1178, 25);
-            this.panel6.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.panel6.Margin = new System.Windows.Forms.Padding(7);
             this.panel6.Name = "panel6";
             this.panel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.panel6.Size = new System.Drawing.Size(1556, 1164);
@@ -1347,6 +1506,28 @@
             this.label51.TabIndex = 61;
             this.label51.Text = "שיקויים מכילים";
             // 
+            // EffectInfoPotionLV
+            // 
+            this.EffectInfoPotionLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader17});
+            this.EffectInfoPotionLV.Font = new System.Drawing.Font("David", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EffectInfoPotionLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
+            this.EffectInfoPotionLV.Location = new System.Drawing.Point(845, 520);
+            this.EffectInfoPotionLV.Margin = new System.Windows.Forms.Padding(7);
+            this.EffectInfoPotionLV.MultiSelect = false;
+            this.EffectInfoPotionLV.Name = "EffectInfoPotionLV";
+            this.EffectInfoPotionLV.RightToLeftLayout = true;
+            this.EffectInfoPotionLV.ShowItemToolTips = true;
+            this.EffectInfoPotionLV.Size = new System.Drawing.Size(655, 528);
+            this.EffectInfoPotionLV.TabIndex = 60;
+            this.EffectInfoPotionLV.UseCompatibleStateImageBehavior = false;
+            this.EffectInfoPotionLV.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader17
+            // 
+            this.columnHeader17.Text = "";
+            this.columnHeader17.Width = 270;
+            // 
             // label50
             // 
             this.label50.AutoSize = true;
@@ -1356,6 +1537,28 @@
             this.label50.Size = new System.Drawing.Size(221, 35);
             this.label50.TabIndex = 59;
             this.label50.Text = "תוצרים מכילים";
+            // 
+            // EffectInfoProductLV
+            // 
+            this.EffectInfoProductLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader16});
+            this.EffectInfoProductLV.Font = new System.Drawing.Font("David", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EffectInfoProductLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
+            this.EffectInfoProductLV.Location = new System.Drawing.Point(170, 520);
+            this.EffectInfoProductLV.Margin = new System.Windows.Forms.Padding(7);
+            this.EffectInfoProductLV.MultiSelect = false;
+            this.EffectInfoProductLV.Name = "EffectInfoProductLV";
+            this.EffectInfoProductLV.RightToLeftLayout = true;
+            this.EffectInfoProductLV.ShowItemToolTips = true;
+            this.EffectInfoProductLV.Size = new System.Drawing.Size(655, 528);
+            this.EffectInfoProductLV.TabIndex = 58;
+            this.EffectInfoProductLV.UseCompatibleStateImageBehavior = false;
+            this.EffectInfoProductLV.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader16
+            // 
+            this.columnHeader16.Text = "";
+            this.columnHeader16.Width = 270;
             // 
             // label49
             // 
@@ -1368,10 +1571,37 @@
             this.label49.TabIndex = 56;
             this.label49.Text = "מידע על השפעות";
             // 
+            // EffectInfoEffectLV
+            // 
+            this.EffectInfoEffectLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader14,
+            this.columnHeader15});
+            this.EffectInfoEffectLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.EffectInfoEffectLV.Location = new System.Drawing.Point(170, 118);
+            this.EffectInfoEffectLV.Margin = new System.Windows.Forms.Padding(7);
+            this.EffectInfoEffectLV.MultiSelect = false;
+            this.EffectInfoEffectLV.Name = "EffectInfoEffectLV";
+            this.EffectInfoEffectLV.RightToLeftLayout = true;
+            this.EffectInfoEffectLV.ShowItemToolTips = true;
+            this.EffectInfoEffectLV.Size = new System.Drawing.Size(972, 334);
+            this.EffectInfoEffectLV.TabIndex = 21;
+            this.EffectInfoEffectLV.UseCompatibleStateImageBehavior = false;
+            this.EffectInfoEffectLV.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader14
+            // 
+            this.columnHeader14.Text = "השפעה";
+            this.columnHeader14.Width = 280;
+            // 
+            // columnHeader15
+            // 
+            this.columnHeader15.Text = "מחיקה";
+            this.columnHeader15.Width = 125;
+            // 
             // EffectInfoAddButton
             // 
             this.EffectInfoAddButton.Location = new System.Drawing.Point(1162, 228);
-            this.EffectInfoAddButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EffectInfoAddButton.Margin = new System.Windows.Forms.Padding(7);
             this.EffectInfoAddButton.Name = "EffectInfoAddButton";
             this.EffectInfoAddButton.Size = new System.Drawing.Size(341, 103);
             this.EffectInfoAddButton.TabIndex = 20;
@@ -1394,7 +1624,7 @@
             this.EffectInfoCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EffectInfoCB.FormattingEnabled = true;
             this.EffectInfoCB.Location = new System.Drawing.Point(1162, 161);
-            this.EffectInfoCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EffectInfoCB.Margin = new System.Windows.Forms.Padding(7);
             this.EffectInfoCB.Name = "EffectInfoCB";
             this.EffectInfoCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.EffectInfoCB.Size = new System.Drawing.Size(335, 43);
@@ -1407,9 +1637,9 @@
             this.tabPage6.BackColor = System.Drawing.SystemColors.Window;
             this.tabPage6.Controls.Add(this.panel3);
             this.tabPage6.Location = new System.Drawing.Point(10, 28);
-            this.tabPage6.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.tabPage6.Margin = new System.Windows.Forms.Padding(7);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(7);
             this.tabPage6.Size = new System.Drawing.Size(2759, 1367);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "חומרים מיוחדים";
@@ -1433,7 +1663,7 @@
             this.panel3.Controls.Add(this.EditSpecialsNameTB);
             this.panel3.Controls.Add(this.EditSpecialsCB);
             this.panel3.Location = new System.Drawing.Point(1524, 11);
-            this.panel3.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.panel3.Margin = new System.Windows.Forms.Padding(7);
             this.panel3.Name = "panel3";
             this.panel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.panel3.Size = new System.Drawing.Size(1171, 1234);
@@ -1464,7 +1694,7 @@
             // EditSpecialAddTransmuteButton
             // 
             this.EditSpecialAddTransmuteButton.Location = new System.Drawing.Point(268, 549);
-            this.EditSpecialAddTransmuteButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditSpecialAddTransmuteButton.Margin = new System.Windows.Forms.Padding(7);
             this.EditSpecialAddTransmuteButton.Name = "EditSpecialAddTransmuteButton";
             this.EditSpecialAddTransmuteButton.Size = new System.Drawing.Size(226, 54);
             this.EditSpecialAddTransmuteButton.TabIndex = 26;
@@ -1485,7 +1715,7 @@
             // EditSpecialSaveButton
             // 
             this.EditSpecialSaveButton.Location = new System.Drawing.Point(504, 355);
-            this.EditSpecialSaveButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditSpecialSaveButton.Margin = new System.Windows.Forms.Padding(7);
             this.EditSpecialSaveButton.Name = "EditSpecialSaveButton";
             this.EditSpecialSaveButton.Size = new System.Drawing.Size(376, 51);
             this.EditSpecialSaveButton.TabIndex = 33;
@@ -1498,12 +1728,47 @@
             this.EditSpecialOriginEffectCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditSpecialOriginEffectCB.FormattingEnabled = true;
             this.EditSpecialOriginEffectCB.Location = new System.Drawing.Point(833, 549);
-            this.EditSpecialOriginEffectCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditSpecialOriginEffectCB.Margin = new System.Windows.Forms.Padding(7);
             this.EditSpecialOriginEffectCB.Name = "EditSpecialOriginEffectCB";
             this.EditSpecialOriginEffectCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.EditSpecialOriginEffectCB.Size = new System.Drawing.Size(305, 43);
             this.EditSpecialOriginEffectCB.TabIndex = 26;
             this.EditSpecialOriginEffectCB.SelectedIndexChanged += new System.EventHandler(this.EditSpecialOriginEffectCB_SelectedIndexChanged);
+            // 
+            // EditSpecialTransmuteLV
+            // 
+            this.EditSpecialTransmuteLV.BackColor = System.Drawing.Color.White;
+            this.EditSpecialTransmuteLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader3,
+            this.columnHeader4,
+            this.columnHeader5});
+            this.EditSpecialTransmuteLV.ForeColor = System.Drawing.Color.Black;
+            this.EditSpecialTransmuteLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.EditSpecialTransmuteLV.Location = new System.Drawing.Point(264, 616);
+            this.EditSpecialTransmuteLV.Margin = new System.Windows.Forms.Padding(7);
+            this.EditSpecialTransmuteLV.MultiSelect = false;
+            this.EditSpecialTransmuteLV.Name = "EditSpecialTransmuteLV";
+            this.EditSpecialTransmuteLV.RightToLeftLayout = true;
+            this.EditSpecialTransmuteLV.ShowItemToolTips = true;
+            this.EditSpecialTransmuteLV.Size = new System.Drawing.Size(874, 408);
+            this.EditSpecialTransmuteLV.TabIndex = 26;
+            this.EditSpecialTransmuteLV.UseCompatibleStateImageBehavior = false;
+            this.EditSpecialTransmuteLV.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "השפעה מקור";
+            this.columnHeader3.Width = 134;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "השפעת יעד";
+            this.columnHeader4.Width = 136;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "מחיקה";
+            this.columnHeader5.Width = 97;
             // 
             // label24
             // 
@@ -1521,7 +1786,7 @@
             this.EditSpecialDestEffectCB.DropDownWidth = 133;
             this.EditSpecialDestEffectCB.FormattingEnabled = true;
             this.EditSpecialDestEffectCB.Location = new System.Drawing.Point(509, 549);
-            this.EditSpecialDestEffectCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditSpecialDestEffectCB.Margin = new System.Windows.Forms.Padding(7);
             this.EditSpecialDestEffectCB.Name = "EditSpecialDestEffectCB";
             this.EditSpecialDestEffectCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.EditSpecialDestEffectCB.Size = new System.Drawing.Size(305, 43);
@@ -1540,7 +1805,7 @@
             // EditSpecialsCommentTB
             // 
             this.EditSpecialsCommentTB.Location = new System.Drawing.Point(268, 270);
-            this.EditSpecialsCommentTB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditSpecialsCommentTB.Margin = new System.Windows.Forms.Padding(7);
             this.EditSpecialsCommentTB.Name = "EditSpecialsCommentTB";
             this.EditSpecialsCommentTB.Size = new System.Drawing.Size(870, 43);
             this.EditSpecialsCommentTB.TabIndex = 30;
@@ -1568,7 +1833,7 @@
             // EditSpecialsNameTB
             // 
             this.EditSpecialsNameTB.Location = new System.Drawing.Point(264, 156);
-            this.EditSpecialsNameTB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditSpecialsNameTB.Margin = new System.Windows.Forms.Padding(7);
             this.EditSpecialsNameTB.Name = "EditSpecialsNameTB";
             this.EditSpecialsNameTB.Size = new System.Drawing.Size(452, 43);
             this.EditSpecialsNameTB.TabIndex = 24;
@@ -1578,7 +1843,7 @@
             this.EditSpecialsCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditSpecialsCB.FormattingEnabled = true;
             this.EditSpecialsCB.Location = new System.Drawing.Point(735, 156);
-            this.EditSpecialsCB.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EditSpecialsCB.Margin = new System.Windows.Forms.Padding(7);
             this.EditSpecialsCB.Name = "EditSpecialsCB";
             this.EditSpecialsCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.EditSpecialsCB.Size = new System.Drawing.Size(403, 43);
@@ -1591,9 +1856,9 @@
             this.tabPage7.BackColor = System.Drawing.SystemColors.Window;
             this.tabPage7.Controls.Add(this.panel7);
             this.tabPage7.Location = new System.Drawing.Point(10, 28);
-            this.tabPage7.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.tabPage7.Margin = new System.Windows.Forms.Padding(7);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(7);
             this.tabPage7.Size = new System.Drawing.Size(2759, 1367);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "סולמות עוצמה";
@@ -1611,7 +1876,7 @@
             this.panel7.Controls.Add(this.EffectPowerDownButton);
             this.panel7.Controls.Add(this.EffectPowerUpButton);
             this.panel7.Location = new System.Drawing.Point(936, 13);
-            this.panel7.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.panel7.Margin = new System.Windows.Forms.Padding(7);
             this.panel7.Name = "panel7";
             this.panel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.panel7.Size = new System.Drawing.Size(1811, 1294);
@@ -1624,7 +1889,7 @@
             this.UpdatePowerSpecialLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
             this.UpdatePowerSpecialLV.HideSelection = false;
             this.UpdatePowerSpecialLV.Location = new System.Drawing.Point(100, 203);
-            this.UpdatePowerSpecialLV.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.UpdatePowerSpecialLV.Margin = new System.Windows.Forms.Padding(7);
             this.UpdatePowerSpecialLV.MultiSelect = false;
             this.UpdatePowerSpecialLV.Name = "UpdatePowerSpecialLV";
             this.UpdatePowerSpecialLV.RightToLeftLayout = true;
@@ -1665,7 +1930,7 @@
             this.UpdatePowerEffectLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
             this.UpdatePowerEffectLV.HideSelection = false;
             this.UpdatePowerEffectLV.Location = new System.Drawing.Point(1125, 203);
-            this.UpdatePowerEffectLV.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.UpdatePowerEffectLV.Margin = new System.Windows.Forms.Padding(7);
             this.UpdatePowerEffectLV.MultiSelect = false;
             this.UpdatePowerEffectLV.Name = "UpdatePowerEffectLV";
             this.UpdatePowerEffectLV.RightToLeftLayout = true;
@@ -1696,7 +1961,7 @@
             this.SpecialPowerDownButton.BackgroundImage = global::LibraAlchemy.Properties.Resources.arrow4rev;
             this.SpecialPowerDownButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.SpecialPowerDownButton.Location = new System.Drawing.Point(784, 707);
-            this.SpecialPowerDownButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.SpecialPowerDownButton.Margin = new System.Windows.Forms.Padding(7);
             this.SpecialPowerDownButton.Name = "SpecialPowerDownButton";
             this.SpecialPowerDownButton.Size = new System.Drawing.Size(103, 89);
             this.SpecialPowerDownButton.TabIndex = 7;
@@ -1708,7 +1973,7 @@
             this.SpecialPowerUpButton.BackgroundImage = global::LibraAlchemy.Properties.Resources.arrow4;
             this.SpecialPowerUpButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.SpecialPowerUpButton.Location = new System.Drawing.Point(784, 605);
-            this.SpecialPowerUpButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.SpecialPowerUpButton.Margin = new System.Windows.Forms.Padding(7);
             this.SpecialPowerUpButton.Name = "SpecialPowerUpButton";
             this.SpecialPowerUpButton.Size = new System.Drawing.Size(103, 89);
             this.SpecialPowerUpButton.TabIndex = 6;
@@ -1720,7 +1985,7 @@
             this.EffectPowerDownButton.BackgroundImage = global::LibraAlchemy.Properties.Resources.arrow4rev;
             this.EffectPowerDownButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.EffectPowerDownButton.Location = new System.Drawing.Point(1008, 707);
-            this.EffectPowerDownButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EffectPowerDownButton.Margin = new System.Windows.Forms.Padding(7);
             this.EffectPowerDownButton.Name = "EffectPowerDownButton";
             this.EffectPowerDownButton.Size = new System.Drawing.Size(103, 89);
             this.EffectPowerDownButton.TabIndex = 5;
@@ -1732,7 +1997,7 @@
             this.EffectPowerUpButton.BackgroundImage = global::LibraAlchemy.Properties.Resources.arrow4;
             this.EffectPowerUpButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.EffectPowerUpButton.Location = new System.Drawing.Point(1008, 605);
-            this.EffectPowerUpButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.EffectPowerUpButton.Margin = new System.Windows.Forms.Padding(7);
             this.EffectPowerUpButton.Name = "EffectPowerUpButton";
             this.EffectPowerUpButton.Size = new System.Drawing.Size(103, 89);
             this.EffectPowerUpButton.TabIndex = 4;
@@ -1760,50 +2025,6 @@
             this.tabPage8.Size = new System.Drawing.Size(2759, 1367);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "הוספת שיקויים";
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(2530, 136);
-            this.label53.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(171, 35);
-            this.label53.TabIndex = 23;
-            this.label53.Text = "בחר השפעה";
-            // 
-            // AddPotEffectCB
-            // 
-            this.AddPotEffectCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.AddPotEffectCB.FormattingEnabled = true;
-            this.AddPotEffectCB.Location = new System.Drawing.Point(2367, 179);
-            this.AddPotEffectCB.Margin = new System.Windows.Forms.Padding(7);
-            this.AddPotEffectCB.Name = "AddPotEffectCB";
-            this.AddPotEffectCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.AddPotEffectCB.Size = new System.Drawing.Size(335, 43);
-            this.AddPotEffectCB.TabIndex = 22;
-            this.AddPotEffectCB.SelectedIndexChanged += new System.EventHandler(this.AddPotEffectCB_SelectedIndexChanged);
-            // 
-            // AddPotSubmitButton
-            // 
-            this.AddPotSubmitButton.Location = new System.Drawing.Point(660, 610);
-            this.AddPotSubmitButton.Margin = new System.Windows.Forms.Padding(7);
-            this.AddPotSubmitButton.Name = "AddPotSubmitButton";
-            this.AddPotSubmitButton.Size = new System.Drawing.Size(341, 103);
-            this.AddPotSubmitButton.TabIndex = 26;
-            this.AddPotSubmitButton.Text = "צור שיקוי";
-            this.AddPotSubmitButton.UseVisualStyleBackColor = true;
-            this.AddPotSubmitButton.Click += new System.EventHandler(this.AddPotSubmitButton_Click);
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("David", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(2303, 40);
-            this.label54.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(403, 65);
-            this.label54.TabIndex = 27;
-            this.label54.Text = "הוספת שיקויים";
             // 
             // label55
             // 
@@ -1862,270 +2083,27 @@
             this.AddPotionDescriptionTB.Size = new System.Drawing.Size(1031, 301);
             this.AddPotionDescriptionTB.TabIndex = 53;
             // 
-            // MasterSimilarPotionLV
+            // label54
             // 
-            this.MasterSimilarPotionLV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MasterSimilarPotionLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader10});
-            this.MasterSimilarPotionLV.Font = new System.Drawing.Font("David", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MasterSimilarPotionLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
-            this.MasterSimilarPotionLV.Location = new System.Drawing.Point(642, 417);
-            this.MasterSimilarPotionLV.Margin = new System.Windows.Forms.Padding(7);
-            this.MasterSimilarPotionLV.MultiSelect = false;
-            this.MasterSimilarPotionLV.Name = "MasterSimilarPotionLV";
-            this.MasterSimilarPotionLV.RightToLeftLayout = true;
-            this.MasterSimilarPotionLV.ShowItemToolTips = true;
-            this.MasterSimilarPotionLV.Size = new System.Drawing.Size(431, 849);
-            this.MasterSimilarPotionLV.TabIndex = 42;
-            this.MasterSimilarPotionLV.UseCompatibleStateImageBehavior = false;
-            this.MasterSimilarPotionLV.View = System.Windows.Forms.View.Details;
+            this.label54.AutoSize = true;
+            this.label54.Font = new System.Drawing.Font("David", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.Location = new System.Drawing.Point(2303, 40);
+            this.label54.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(403, 65);
+            this.label54.TabIndex = 27;
+            this.label54.Text = "הוספת שיקויים";
             // 
-            // columnHeader10
+            // AddPotSubmitButton
             // 
-            this.columnHeader10.Text = "";
-            this.columnHeader10.Width = 178;
-            // 
-            // MasterEffectLV
-            // 
-            this.MasterEffectLV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MasterEffectLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader8});
-            this.MasterEffectLV.Font = new System.Drawing.Font("David", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MasterEffectLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
-            this.MasterEffectLV.Location = new System.Drawing.Point(1092, 417);
-            this.MasterEffectLV.Margin = new System.Windows.Forms.Padding(7);
-            this.MasterEffectLV.MultiSelect = false;
-            this.MasterEffectLV.Name = "MasterEffectLV";
-            this.MasterEffectLV.RightToLeftLayout = true;
-            this.MasterEffectLV.ShowItemToolTips = true;
-            this.MasterEffectLV.Size = new System.Drawing.Size(431, 849);
-            this.MasterEffectLV.TabIndex = 35;
-            this.MasterEffectLV.UseCompatibleStateImageBehavior = false;
-            this.MasterEffectLV.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader8
-            // 
-            this.columnHeader8.Text = "";
-            this.columnHeader8.Width = 176;
-            // 
-            // MasterAlchemyLV
-            // 
-            this.MasterAlchemyLV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MasterAlchemyLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader6,
-            this.columnHeader7,
-            this.columnHeader12});
-            this.MasterAlchemyLV.Font = new System.Drawing.Font("David", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MasterAlchemyLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.MasterAlchemyLV.Location = new System.Drawing.Point(1549, 103);
-            this.MasterAlchemyLV.Margin = new System.Windows.Forms.Padding(7);
-            this.MasterAlchemyLV.MultiSelect = false;
-            this.MasterAlchemyLV.Name = "MasterAlchemyLV";
-            this.MasterAlchemyLV.RightToLeftLayout = true;
-            this.MasterAlchemyLV.ShowItemToolTips = true;
-            this.MasterAlchemyLV.Size = new System.Drawing.Size(1133, 1164);
-            this.MasterAlchemyLV.TabIndex = 18;
-            this.MasterAlchemyLV.UseCompatibleStateImageBehavior = false;
-            this.MasterAlchemyLV.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "";
-            this.columnHeader6.Width = 200;
-            // 
-            // columnHeader7
-            // 
-            this.columnHeader7.Text = "";
-            this.columnHeader7.Width = 140;
-            // 
-            // columnHeader12
-            // 
-            this.columnHeader12.Text = "";
-            this.columnHeader12.Width = 140;
-            // 
-            // EditCountersLV
-            // 
-            this.EditCountersLV.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.EditCountersLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2});
-            this.EditCountersLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.EditCountersLV.Location = new System.Drawing.Point(264, 790);
-            this.EditCountersLV.Margin = new System.Windows.Forms.Padding(7);
-            this.EditCountersLV.MultiSelect = false;
-            this.EditCountersLV.Name = "EditCountersLV";
-            this.EditCountersLV.RightToLeftLayout = true;
-            this.EditCountersLV.ShowItemToolTips = true;
-            this.EditCountersLV.Size = new System.Drawing.Size(870, 408);
-            this.EditCountersLV.TabIndex = 26;
-            this.EditCountersLV.UseCompatibleStateImageBehavior = false;
-            this.EditCountersLV.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "השפעה";
-            this.columnHeader1.Width = 266;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "מחיקה";
-            this.columnHeader2.Width = 100;
-            // 
-            // EditProductEffectsLV
-            // 
-            this.EditProductEffectsLV.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.EditProductEffectsLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.EditProductLVColumn1,
-            this.EditProductLVColumn2});
-            this.EditProductEffectsLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.EditProductEffectsLV.Location = new System.Drawing.Point(35, 346);
-            this.EditProductEffectsLV.Margin = new System.Windows.Forms.Padding(7);
-            this.EditProductEffectsLV.MultiSelect = false;
-            this.EditProductEffectsLV.Name = "EditProductEffectsLV";
-            this.EditProductEffectsLV.RightToLeftLayout = true;
-            this.EditProductEffectsLV.ShowItemToolTips = true;
-            this.EditProductEffectsLV.Size = new System.Drawing.Size(825, 573);
-            this.EditProductEffectsLV.TabIndex = 17;
-            this.EditProductEffectsLV.UseCompatibleStateImageBehavior = false;
-            this.EditProductEffectsLV.View = System.Windows.Forms.View.Details;
-            // 
-            // EditProductLVColumn1
-            // 
-            this.EditProductLVColumn1.Text = "השפעה";
-            this.EditProductLVColumn1.Width = 256;
-            // 
-            // EditProductLVColumn2
-            // 
-            this.EditProductLVColumn2.Text = "מחיקה";
-            this.EditProductLVColumn2.Width = 90;
-            // 
-            // EditPotionEffectsLV
-            // 
-            this.EditPotionEffectsLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader13});
-            this.EditPotionEffectsLV.Font = new System.Drawing.Font("David", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EditPotionEffectsLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
-            this.EditPotionEffectsLV.Location = new System.Drawing.Point(1101, 239);
-            this.EditPotionEffectsLV.Margin = new System.Windows.Forms.Padding(7);
-            this.EditPotionEffectsLV.MultiSelect = false;
-            this.EditPotionEffectsLV.Name = "EditPotionEffectsLV";
-            this.EditPotionEffectsLV.RightToLeftLayout = true;
-            this.EditPotionEffectsLV.ShowItemToolTips = true;
-            this.EditPotionEffectsLV.Size = new System.Drawing.Size(389, 385);
-            this.EditPotionEffectsLV.TabIndex = 56;
-            this.EditPotionEffectsLV.UseCompatibleStateImageBehavior = false;
-            this.EditPotionEffectsLV.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader13
-            // 
-            this.columnHeader13.Text = "";
-            this.columnHeader13.Width = 120;
-            // 
-            // EffectInfoPotionLV
-            // 
-            this.EffectInfoPotionLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader17});
-            this.EffectInfoPotionLV.Font = new System.Drawing.Font("David", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EffectInfoPotionLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
-            this.EffectInfoPotionLV.Location = new System.Drawing.Point(845, 520);
-            this.EffectInfoPotionLV.Margin = new System.Windows.Forms.Padding(7);
-            this.EffectInfoPotionLV.MultiSelect = false;
-            this.EffectInfoPotionLV.Name = "EffectInfoPotionLV";
-            this.EffectInfoPotionLV.RightToLeftLayout = true;
-            this.EffectInfoPotionLV.ShowItemToolTips = true;
-            this.EffectInfoPotionLV.Size = new System.Drawing.Size(655, 528);
-            this.EffectInfoPotionLV.TabIndex = 60;
-            this.EffectInfoPotionLV.UseCompatibleStateImageBehavior = false;
-            this.EffectInfoPotionLV.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader17
-            // 
-            this.columnHeader17.Text = "";
-            this.columnHeader17.Width = 270;
-            // 
-            // EffectInfoProductLV
-            // 
-            this.EffectInfoProductLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader16});
-            this.EffectInfoProductLV.Font = new System.Drawing.Font("David", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EffectInfoProductLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
-            this.EffectInfoProductLV.Location = new System.Drawing.Point(170, 520);
-            this.EffectInfoProductLV.Margin = new System.Windows.Forms.Padding(7);
-            this.EffectInfoProductLV.MultiSelect = false;
-            this.EffectInfoProductLV.Name = "EffectInfoProductLV";
-            this.EffectInfoProductLV.RightToLeftLayout = true;
-            this.EffectInfoProductLV.ShowItemToolTips = true;
-            this.EffectInfoProductLV.Size = new System.Drawing.Size(655, 528);
-            this.EffectInfoProductLV.TabIndex = 58;
-            this.EffectInfoProductLV.UseCompatibleStateImageBehavior = false;
-            this.EffectInfoProductLV.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader16
-            // 
-            this.columnHeader16.Text = "";
-            this.columnHeader16.Width = 270;
-            // 
-            // EffectInfoEffectLV
-            // 
-            this.EffectInfoEffectLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader14,
-            this.columnHeader15});
-            this.EffectInfoEffectLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.EffectInfoEffectLV.Location = new System.Drawing.Point(170, 118);
-            this.EffectInfoEffectLV.Margin = new System.Windows.Forms.Padding(7);
-            this.EffectInfoEffectLV.MultiSelect = false;
-            this.EffectInfoEffectLV.Name = "EffectInfoEffectLV";
-            this.EffectInfoEffectLV.RightToLeftLayout = true;
-            this.EffectInfoEffectLV.ShowItemToolTips = true;
-            this.EffectInfoEffectLV.Size = new System.Drawing.Size(972, 334);
-            this.EffectInfoEffectLV.TabIndex = 21;
-            this.EffectInfoEffectLV.UseCompatibleStateImageBehavior = false;
-            this.EffectInfoEffectLV.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader14
-            // 
-            this.columnHeader14.Text = "השפעה";
-            this.columnHeader14.Width = 280;
-            // 
-            // columnHeader15
-            // 
-            this.columnHeader15.Text = "מחיקה";
-            this.columnHeader15.Width = 125;
-            // 
-            // EditSpecialTransmuteLV
-            // 
-            this.EditSpecialTransmuteLV.BackColor = System.Drawing.Color.White;
-            this.EditSpecialTransmuteLV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5});
-            this.EditSpecialTransmuteLV.ForeColor = System.Drawing.Color.Black;
-            this.EditSpecialTransmuteLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.EditSpecialTransmuteLV.Location = new System.Drawing.Point(264, 616);
-            this.EditSpecialTransmuteLV.Margin = new System.Windows.Forms.Padding(7);
-            this.EditSpecialTransmuteLV.MultiSelect = false;
-            this.EditSpecialTransmuteLV.Name = "EditSpecialTransmuteLV";
-            this.EditSpecialTransmuteLV.RightToLeftLayout = true;
-            this.EditSpecialTransmuteLV.ShowItemToolTips = true;
-            this.EditSpecialTransmuteLV.Size = new System.Drawing.Size(874, 408);
-            this.EditSpecialTransmuteLV.TabIndex = 26;
-            this.EditSpecialTransmuteLV.UseCompatibleStateImageBehavior = false;
-            this.EditSpecialTransmuteLV.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "השפעה מקור";
-            this.columnHeader3.Width = 134;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "השפעת יעד";
-            this.columnHeader4.Width = 136;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "מחיקה";
-            this.columnHeader5.Width = 97;
+            this.AddPotSubmitButton.Location = new System.Drawing.Point(660, 610);
+            this.AddPotSubmitButton.Margin = new System.Windows.Forms.Padding(7);
+            this.AddPotSubmitButton.Name = "AddPotSubmitButton";
+            this.AddPotSubmitButton.Size = new System.Drawing.Size(341, 103);
+            this.AddPotSubmitButton.TabIndex = 26;
+            this.AddPotSubmitButton.Text = "צור שיקוי";
+            this.AddPotSubmitButton.UseVisualStyleBackColor = true;
+            this.AddPotSubmitButton.Click += new System.EventHandler(this.AddPotSubmitButton_Click);
             // 
             // AddPotionEffectLV
             // 
@@ -2154,6 +2132,28 @@
             this.columnHeader19.Text = "מחיקה";
             this.columnHeader19.Width = 125;
             // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(2530, 136);
+            this.label53.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(171, 35);
+            this.label53.TabIndex = 23;
+            this.label53.Text = "בחר השפעה";
+            // 
+            // AddPotEffectCB
+            // 
+            this.AddPotEffectCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.AddPotEffectCB.FormattingEnabled = true;
+            this.AddPotEffectCB.Location = new System.Drawing.Point(2367, 179);
+            this.AddPotEffectCB.Margin = new System.Windows.Forms.Padding(7);
+            this.AddPotEffectCB.Name = "AddPotEffectCB";
+            this.AddPotEffectCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.AddPotEffectCB.Size = new System.Drawing.Size(335, 43);
+            this.AddPotEffectCB.TabIndex = 22;
+            this.AddPotEffectCB.SelectedIndexChanged += new System.EventHandler(this.AddPotEffectCB_SelectedIndexChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
@@ -2161,7 +2161,7 @@
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(2784, 1410);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.Margin = new System.Windows.Forms.Padding(7);
             this.Name = "Form1";
             this.Text = "Libra Alchemist";
             this.tabControl1.ResumeLayout(false);

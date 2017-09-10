@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Tch+/gKzTPr+tvvRBinOV1aiOn2Nq9bIDrsWsCrGJYE=</dsig:DigestValue>
+        <dsig:DigestValue>uHGAaPWzWg1syaSNZBIOXktFxdnyETn0w9wNosGqjAM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -71,7 +71,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ayjz6zUGhA9NL9Z0Ll30jBqbJj6/CGJveyKdj7mzVkY=</dsig:DigestValue>
+      <dsig:DigestValue>OirI4ZOKbe0Rez3fXqmIMGgriHrw2Z4y01sx8Owz5/c=</dsig:DigestValue>
     </hash>
   </file>
   <file name="LibraAlchemy.exe.config" size="648">

@@ -550,7 +550,7 @@ namespace LibraAlchemy
             //Now we will compare the five effects to all of the other potions. 
             GetAllPotions();
             //this is not the most effective way but it's easier since the DB won't have thousands of records.
-            matches = Potion_List.FindAll(item => item.Effects.Select(e => e.ID).ToList().OrderBy(x => x).SequenceEqual(effect_list.Select(i => i.ID).ToList().OrderBy(x => x)));
+            matches = Potion_List.FindAll(item => item.Effects.Select(e => e.ID).ToList().OrderBy(x => x).SequenceEqual(final_list.Select(i => i.ID).ToList().OrderBy(x => x)));
             //But what about the levels?
             bool flag = true;
             Effect temp;

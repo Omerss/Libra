@@ -1391,7 +1391,5 @@ namespace LibraAlchemy
             alchemist.AddNewPotion(p);
             UpdateAddPotionTab();
         }
-
-
     }
 }
