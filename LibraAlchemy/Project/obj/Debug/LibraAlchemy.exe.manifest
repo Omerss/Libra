@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>uHGAaPWzWg1syaSNZBIOXktFxdnyETn0w9wNosGqjAM=</dsig:DigestValue>
+        <dsig:DigestValue>G08c/Ozej3XcuE8aL9LFDLAZrPcMleiD//w95RWn0Yw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -71,16 +71,16 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>OirI4ZOKbe0Rez3fXqmIMGgriHrw2Z4y01sx8Owz5/c=</dsig:DigestValue>
+      <dsig:DigestValue>8MHmEF9WJW1/Hjkxilf/6lf5/UquN15lmf3VPvorNOk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="LibraAlchemy.exe.config" size="648">
+  <file name="LibraAlchemy.exe.config" size="629">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>2hPidDLGulzTNsejW5Ri4ATdvykDOXglI15wjhC66DE=</dsig:DigestValue>
+      <dsig:DigestValue>MMhdGyJfC9AdktwvWuSgqrz7jKXC1AcsHsC2GrIK4+c=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\red-minus.png" size="5336">

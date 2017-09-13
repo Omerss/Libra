@@ -233,14 +233,14 @@
             this.tabControl1.Font = new System.Drawing.Font("David", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.HotTrack = true;
             this.tabControl1.ItemSize = new System.Drawing.Size(60, 18);
-            this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(7);
+            this.tabControl1.Location = new System.Drawing.Point(0, 23);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.tabControl1.RightToLeftLayout = true;
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.ShowToolTips = true;
-            this.tabControl1.Size = new System.Drawing.Size(2779, 1405);
+            this.tabControl1.Size = new System.Drawing.Size(1648, 752);
             this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.FillToRight;
             this.tabControl1.TabIndex = 0;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
@@ -250,11 +250,11 @@
             this.tabPage1.AutoScroll = true;
             this.tabPage1.BackColor = System.Drawing.SystemColors.Window;
             this.tabPage1.Controls.Add(this.panel9);
-            this.tabPage1.Location = new System.Drawing.Point(10, 28);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(7);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(7);
-            this.tabPage1.Size = new System.Drawing.Size(2759, 1367);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Size = new System.Drawing.Size(1640, 726);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "ניהול אלכימיה";
             // 
@@ -283,31 +283,31 @@
             this.panel9.Controls.Add(this.MasterIngredientCB);
             this.panel9.Controls.Add(this.label33);
             this.panel9.Controls.Add(this.MasterAlchemyLV);
-            this.panel9.Location = new System.Drawing.Point(5, 11);
-            this.panel9.Margin = new System.Windows.Forms.Padding(7);
+            this.panel9.Location = new System.Drawing.Point(26, 8);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel9.Name = "panel9";
-            this.panel9.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.panel9.Size = new System.Drawing.Size(2725, 1298);
+            this.panel9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.panel9.Size = new System.Drawing.Size(1578, 718);
             this.panel9.TabIndex = 49;
             // 
             // label52
             // 
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("David", 2.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(9, 1265);
-            this.label52.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label52.Location = new System.Drawing.Point(5, 698);
+            this.label52.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(8, 7);
+            this.label52.Size = new System.Drawing.Size(5, 4);
             this.label52.TabIndex = 48;
             this.label52.Text = "ש";
             // 
             // MasterAddPotionButton
             // 
             this.MasterAddPotionButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MasterAddPotionButton.Location = new System.Drawing.Point(142, 839);
-            this.MasterAddPotionButton.Margin = new System.Windows.Forms.Padding(7);
+            this.MasterAddPotionButton.Location = new System.Drawing.Point(102, 463);
+            this.MasterAddPotionButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MasterAddPotionButton.Name = "MasterAddPotionButton";
-            this.MasterAddPotionButton.Size = new System.Drawing.Size(331, 54);
+            this.MasterAddPotionButton.Size = new System.Drawing.Size(189, 30);
             this.MasterAddPotionButton.TabIndex = 47;
             this.MasterAddPotionButton.Text = "הוסף שיקוי";
             this.MasterAddPotionButton.UseVisualStyleBackColor = true;
@@ -317,40 +317,40 @@
             // 
             this.label41.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(390, 524);
-            this.label41.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label41.Location = new System.Drawing.Point(244, 289);
+            this.label41.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(228, 35);
+            this.label41.Size = new System.Drawing.Size(125, 20);
             this.label41.TabIndex = 46;
             this.label41.Text = "שם יוצר השיקוי";
             // 
             // MasterCreatorNameTB
             // 
             this.MasterCreatorNameTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MasterCreatorNameTB.Location = new System.Drawing.Point(14, 567);
-            this.MasterCreatorNameTB.Margin = new System.Windows.Forms.Padding(7);
+            this.MasterCreatorNameTB.Location = new System.Drawing.Point(29, 313);
+            this.MasterCreatorNameTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MasterCreatorNameTB.Name = "MasterCreatorNameTB";
-            this.MasterCreatorNameTB.Size = new System.Drawing.Size(608, 43);
+            this.MasterCreatorNameTB.Size = new System.Drawing.Size(349, 27);
             this.MasterCreatorNameTB.TabIndex = 45;
             // 
             // label40
             // 
             this.label40.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(460, 422);
-            this.label40.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label40.Location = new System.Drawing.Point(284, 233);
+            this.label40.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(163, 35);
+            this.label40.Size = new System.Drawing.Size(90, 20);
             this.label40.TabIndex = 44;
             this.label40.Text = "שם השיקוי";
             // 
             // MasterPotionNameTB
             // 
             this.MasterPotionNameTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MasterPotionNameTB.Location = new System.Drawing.Point(14, 464);
-            this.MasterPotionNameTB.Margin = new System.Windows.Forms.Padding(7);
+            this.MasterPotionNameTB.Location = new System.Drawing.Point(29, 256);
+            this.MasterPotionNameTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MasterPotionNameTB.Name = "MasterPotionNameTB";
-            this.MasterPotionNameTB.Size = new System.Drawing.Size(608, 43);
+            this.MasterPotionNameTB.Size = new System.Drawing.Size(349, 27);
             this.MasterPotionNameTB.TabIndex = 43;
             // 
             // MasterSimilarPotionLV
@@ -360,13 +360,13 @@
             this.columnHeader10});
             this.MasterSimilarPotionLV.Font = new System.Drawing.Font("David", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MasterSimilarPotionLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
-            this.MasterSimilarPotionLV.Location = new System.Drawing.Point(642, 417);
-            this.MasterSimilarPotionLV.Margin = new System.Windows.Forms.Padding(7);
+            this.MasterSimilarPotionLV.Location = new System.Drawing.Point(388, 230);
+            this.MasterSimilarPotionLV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MasterSimilarPotionLV.MultiSelect = false;
             this.MasterSimilarPotionLV.Name = "MasterSimilarPotionLV";
             this.MasterSimilarPotionLV.RightToLeftLayout = true;
             this.MasterSimilarPotionLV.ShowItemToolTips = true;
-            this.MasterSimilarPotionLV.Size = new System.Drawing.Size(431, 849);
+            this.MasterSimilarPotionLV.Size = new System.Drawing.Size(248, 470);
             this.MasterSimilarPotionLV.TabIndex = 42;
             this.MasterSimilarPotionLV.UseCompatibleStateImageBehavior = false;
             this.MasterSimilarPotionLV.View = System.Windows.Forms.View.Details;
@@ -380,22 +380,22 @@
             // 
             this.label39.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(422, 631);
-            this.label39.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label39.Location = new System.Drawing.Point(262, 348);
+            this.label39.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(200, 35);
+            this.label39.Size = new System.Drawing.Size(111, 20);
             this.label39.TabIndex = 41;
             this.label39.Text = "תיאור השיקוי";
             // 
             // MasterPotionDescriptionTB
             // 
             this.MasterPotionDescriptionTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MasterPotionDescriptionTB.Location = new System.Drawing.Point(14, 674);
-            this.MasterPotionDescriptionTB.Margin = new System.Windows.Forms.Padding(7);
+            this.MasterPotionDescriptionTB.Location = new System.Drawing.Point(29, 372);
+            this.MasterPotionDescriptionTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MasterPotionDescriptionTB.Multiline = true;
             this.MasterPotionDescriptionTB.Name = "MasterPotionDescriptionTB";
             this.MasterPotionDescriptionTB.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.MasterPotionDescriptionTB.Size = new System.Drawing.Size(608, 147);
+            this.MasterPotionDescriptionTB.Size = new System.Drawing.Size(349, 83);
             this.MasterPotionDescriptionTB.TabIndex = 40;
             // 
             // label37
@@ -403,10 +403,10 @@
             this.label37.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("David", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(782, 368);
-            this.label37.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label37.Location = new System.Drawing.Point(468, 203);
+            this.label37.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(280, 43);
+            this.label37.Size = new System.Drawing.Size(155, 24);
             this.label37.TabIndex = 39;
             this.label37.Text = "שיקויים סמוכים";
             // 
@@ -415,10 +415,10 @@
             this.label38.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("David", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(1146, 368);
-            this.label38.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label38.Location = new System.Drawing.Point(676, 203);
+            this.label38.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(369, 43);
+            this.label38.Size = new System.Drawing.Size(205, 24);
             this.label38.TabIndex = 37;
             this.label38.Text = "רשימת השפעות סופית";
             // 
@@ -429,13 +429,13 @@
             this.columnHeader8});
             this.MasterEffectLV.Font = new System.Drawing.Font("David", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MasterEffectLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
-            this.MasterEffectLV.Location = new System.Drawing.Point(1092, 417);
-            this.MasterEffectLV.Margin = new System.Windows.Forms.Padding(7);
+            this.MasterEffectLV.Location = new System.Drawing.Point(645, 230);
+            this.MasterEffectLV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MasterEffectLV.MultiSelect = false;
             this.MasterEffectLV.Name = "MasterEffectLV";
             this.MasterEffectLV.RightToLeftLayout = true;
             this.MasterEffectLV.ShowItemToolTips = true;
-            this.MasterEffectLV.Size = new System.Drawing.Size(431, 849);
+            this.MasterEffectLV.Size = new System.Drawing.Size(248, 470);
             this.MasterEffectLV.TabIndex = 35;
             this.MasterEffectLV.UseCompatibleStateImageBehavior = false;
             this.MasterEffectLV.View = System.Windows.Forms.View.Details;
@@ -448,10 +448,10 @@
             // MasterAddSpecialButton
             // 
             this.MasterAddSpecialButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MasterAddSpecialButton.Location = new System.Drawing.Point(891, 263);
-            this.MasterAddSpecialButton.Margin = new System.Windows.Forms.Padding(7);
+            this.MasterAddSpecialButton.Location = new System.Drawing.Point(530, 145);
+            this.MasterAddSpecialButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MasterAddSpecialButton.Name = "MasterAddSpecialButton";
-            this.MasterAddSpecialButton.Size = new System.Drawing.Size(215, 54);
+            this.MasterAddSpecialButton.Size = new System.Drawing.Size(123, 30);
             this.MasterAddSpecialButton.TabIndex = 34;
             this.MasterAddSpecialButton.Text = "הוסף";
             this.MasterAddSpecialButton.UseVisualStyleBackColor = true;
@@ -461,10 +461,10 @@
             // 
             this.label36.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(1274, 223);
-            this.label36.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label36.Location = new System.Drawing.Point(749, 123);
+            this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(234, 35);
+            this.label36.Size = new System.Drawing.Size(128, 20);
             this.label36.TabIndex = 33;
             this.label36.Text = "בחר חומר מיוחד";
             // 
@@ -473,20 +473,20 @@
             this.MasterSpecialCB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.MasterSpecialCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.MasterSpecialCB.FormattingEnabled = true;
-            this.MasterSpecialCB.Location = new System.Drawing.Point(1120, 265);
-            this.MasterSpecialCB.Margin = new System.Windows.Forms.Padding(7);
+            this.MasterSpecialCB.Location = new System.Drawing.Point(661, 146);
+            this.MasterSpecialCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MasterSpecialCB.Name = "MasterSpecialCB";
             this.MasterSpecialCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.MasterSpecialCB.Size = new System.Drawing.Size(403, 43);
+            this.MasterSpecialCB.Size = new System.Drawing.Size(232, 28);
             this.MasterSpecialCB.TabIndex = 32;
             // 
             // MasterAddProductButton
             // 
             this.MasterAddProductButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.MasterAddProductButton.Location = new System.Drawing.Point(469, 145);
-            this.MasterAddProductButton.Margin = new System.Windows.Forms.Padding(7);
+            this.MasterAddProductButton.Location = new System.Drawing.Point(289, 80);
+            this.MasterAddProductButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MasterAddProductButton.Name = "MasterAddProductButton";
-            this.MasterAddProductButton.Size = new System.Drawing.Size(215, 54);
+            this.MasterAddProductButton.Size = new System.Drawing.Size(123, 30);
             this.MasterAddProductButton.TabIndex = 31;
             this.MasterAddProductButton.Text = "הוסף";
             this.MasterAddProductButton.UseVisualStyleBackColor = true;
@@ -496,10 +496,10 @@
             // 
             this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(919, 103);
-            this.label34.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label34.Location = new System.Drawing.Point(546, 57);
+            this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(178, 35);
+            this.label34.Size = new System.Drawing.Size(98, 20);
             this.label34.TabIndex = 30;
             this.label34.Text = "בחר טכניקה";
             // 
@@ -508,21 +508,21 @@
             this.MasterTechniqueCB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.MasterTechniqueCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.MasterTechniqueCB.FormattingEnabled = true;
-            this.MasterTechniqueCB.Location = new System.Drawing.Point(698, 145);
-            this.MasterTechniqueCB.Margin = new System.Windows.Forms.Padding(7);
+            this.MasterTechniqueCB.Location = new System.Drawing.Point(420, 80);
+            this.MasterTechniqueCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MasterTechniqueCB.Name = "MasterTechniqueCB";
             this.MasterTechniqueCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.MasterTechniqueCB.Size = new System.Drawing.Size(403, 43);
+            this.MasterTechniqueCB.Size = new System.Drawing.Size(232, 28);
             this.MasterTechniqueCB.TabIndex = 29;
             // 
             // label35
             // 
             this.label35.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(1381, 103);
-            this.label35.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label35.Location = new System.Drawing.Point(810, 57);
+            this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(139, 35);
+            this.label35.Size = new System.Drawing.Size(75, 20);
             this.label35.TabIndex = 28;
             this.label35.Text = "בחר רכיב";
             // 
@@ -531,11 +531,11 @@
             this.MasterIngredientCB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.MasterIngredientCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.MasterIngredientCB.FormattingEnabled = true;
-            this.MasterIngredientCB.Location = new System.Drawing.Point(1120, 145);
-            this.MasterIngredientCB.Margin = new System.Windows.Forms.Padding(7);
+            this.MasterIngredientCB.Location = new System.Drawing.Point(661, 80);
+            this.MasterIngredientCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MasterIngredientCB.Name = "MasterIngredientCB";
             this.MasterIngredientCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.MasterIngredientCB.Size = new System.Drawing.Size(403, 43);
+            this.MasterIngredientCB.Size = new System.Drawing.Size(232, 28);
             this.MasterIngredientCB.TabIndex = 27;
             // 
             // label33
@@ -543,10 +543,10 @@
             this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("David", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(2294, 20);
-            this.label33.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label33.Location = new System.Drawing.Point(1332, 11);
+            this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(382, 65);
+            this.label33.Size = new System.Drawing.Size(209, 36);
             this.label33.TabIndex = 26;
             this.label33.Text = "ניהול אלכימיה";
             // 
@@ -559,13 +559,13 @@
             this.columnHeader12});
             this.MasterAlchemyLV.Font = new System.Drawing.Font("David", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MasterAlchemyLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.MasterAlchemyLV.Location = new System.Drawing.Point(1549, 103);
-            this.MasterAlchemyLV.Margin = new System.Windows.Forms.Padding(7);
+            this.MasterAlchemyLV.Location = new System.Drawing.Point(906, 57);
+            this.MasterAlchemyLV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MasterAlchemyLV.MultiSelect = false;
             this.MasterAlchemyLV.Name = "MasterAlchemyLV";
             this.MasterAlchemyLV.RightToLeftLayout = true;
             this.MasterAlchemyLV.ShowItemToolTips = true;
-            this.MasterAlchemyLV.Size = new System.Drawing.Size(1133, 1164);
+            this.MasterAlchemyLV.Size = new System.Drawing.Size(649, 644);
             this.MasterAlchemyLV.TabIndex = 18;
             this.MasterAlchemyLV.UseCompatibleStateImageBehavior = false;
             this.MasterAlchemyLV.View = System.Windows.Forms.View.Details;
@@ -590,11 +590,11 @@
             this.tabPage2.AutoScroll = true;
             this.tabPage2.BackColor = System.Drawing.SystemColors.Window;
             this.tabPage2.Controls.Add(this.panel8);
-            this.tabPage2.Location = new System.Drawing.Point(10, 28);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(7);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(7);
-            this.tabPage2.Size = new System.Drawing.Size(2759, 1367);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Size = new System.Drawing.Size(1608, 726);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "עריכת תוצרים והשפעות";
             // 
@@ -603,11 +603,11 @@
             this.panel8.AutoScroll = true;
             this.panel8.Controls.Add(this.panel2);
             this.panel8.Controls.Add(this.panel1);
-            this.panel8.Location = new System.Drawing.Point(532, 11);
-            this.panel8.Margin = new System.Windows.Forms.Padding(7);
+            this.panel8.Location = new System.Drawing.Point(348, 8);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel8.Name = "panel8";
-            this.panel8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.panel8.Size = new System.Drawing.Size(2191, 1278);
+            this.panel8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.panel8.Size = new System.Drawing.Size(1252, 705);
             this.panel8.TabIndex = 29;
             // 
             // panel2
@@ -631,19 +631,19 @@
             this.panel2.Controls.Add(this.EditEffectsNameTB);
             this.panel2.Controls.Add(this.label15);
             this.panel2.Controls.Add(this.EditEffectsEffectCB);
-            this.panel2.Location = new System.Drawing.Point(54, 9);
-            this.panel2.Margin = new System.Windows.Forms.Padding(7);
+            this.panel2.Location = new System.Drawing.Point(19, 6);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1167, 1234);
+            this.panel2.Size = new System.Drawing.Size(667, 681);
             this.panel2.TabIndex = 28;
             // 
             // EditCountersAddCounterButton
             // 
             this.EditCountersAddCounterButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.EditCountersAddCounterButton.Location = new System.Drawing.Point(264, 680);
-            this.EditCountersAddCounterButton.Margin = new System.Windows.Forms.Padding(7);
+            this.EditCountersAddCounterButton.Location = new System.Drawing.Point(151, 375);
+            this.EditCountersAddCounterButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditCountersAddCounterButton.Name = "EditCountersAddCounterButton";
-            this.EditCountersAddCounterButton.Size = new System.Drawing.Size(226, 96);
+            this.EditCountersAddCounterButton.Size = new System.Drawing.Size(129, 53);
             this.EditCountersAddCounterButton.TabIndex = 26;
             this.EditCountersAddCounterButton.Text = "הוסף השפעה מנוגדת";
             this.EditCountersAddCounterButton.UseVisualStyleBackColor = true;
@@ -653,11 +653,11 @@
             // 
             this.EditEffectCommulativeCheckbox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditEffectCommulativeCheckbox.AutoSize = true;
-            this.EditEffectCommulativeCheckbox.Location = new System.Drawing.Point(889, 480);
-            this.EditEffectCommulativeCheckbox.Margin = new System.Windows.Forms.Padding(7);
+            this.EditEffectCommulativeCheckbox.Location = new System.Drawing.Point(508, 265);
+            this.EditEffectCommulativeCheckbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditEffectCommulativeCheckbox.Name = "EditEffectCommulativeCheckbox";
             this.EditEffectCommulativeCheckbox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EditEffectCommulativeCheckbox.Size = new System.Drawing.Size(228, 39);
+            this.EditEffectCommulativeCheckbox.Size = new System.Drawing.Size(132, 24);
             this.EditEffectCommulativeCheckbox.TabIndex = 34;
             this.EditEffectCommulativeCheckbox.Text = "אפקט מצטבר";
             this.EditEffectCommulativeCheckbox.UseVisualStyleBackColor = true;
@@ -666,20 +666,20 @@
             // 
             this.label22.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(961, 680);
-            this.label22.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label22.Location = new System.Drawing.Point(549, 375);
+            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(171, 35);
+            this.label22.Size = new System.Drawing.Size(94, 20);
             this.label22.TabIndex = 27;
             this.label22.Text = "בחר השפעה";
             // 
             // EditEffectsSaveButton
             // 
             this.EditEffectsSaveButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.EditEffectsSaveButton.Location = new System.Drawing.Point(534, 538);
-            this.EditEffectsSaveButton.Margin = new System.Windows.Forms.Padding(7);
+            this.EditEffectsSaveButton.Location = new System.Drawing.Point(305, 297);
+            this.EditEffectsSaveButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditEffectsSaveButton.Name = "EditEffectsSaveButton";
-            this.EditEffectsSaveButton.Size = new System.Drawing.Size(376, 51);
+            this.EditEffectsSaveButton.Size = new System.Drawing.Size(215, 28);
             this.EditEffectsSaveButton.TabIndex = 33;
             this.EditEffectsSaveButton.Text = "שמור שינויים";
             this.EditEffectsSaveButton.UseVisualStyleBackColor = true;
@@ -690,11 +690,11 @@
             this.EditCountersEffectCB.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditCountersEffectCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditCountersEffectCB.FormattingEnabled = true;
-            this.EditCountersEffectCB.Location = new System.Drawing.Point(828, 723);
-            this.EditCountersEffectCB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditCountersEffectCB.Location = new System.Drawing.Point(473, 399);
+            this.EditCountersEffectCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditCountersEffectCB.Name = "EditCountersEffectCB";
             this.EditCountersEffectCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EditCountersEffectCB.Size = new System.Drawing.Size(305, 43);
+            this.EditCountersEffectCB.Size = new System.Drawing.Size(176, 28);
             this.EditCountersEffectCB.TabIndex = 26;
             this.EditCountersEffectCB.SelectedIndexChanged += new System.EventHandler(this.EditCountersEffectCB_SelectedIndexChanged);
             // 
@@ -705,13 +705,13 @@
             this.columnHeader1,
             this.columnHeader2});
             this.EditCountersLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.EditCountersLV.Location = new System.Drawing.Point(264, 790);
-            this.EditCountersLV.Margin = new System.Windows.Forms.Padding(7);
+            this.EditCountersLV.Location = new System.Drawing.Point(151, 436);
+            this.EditCountersLV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditCountersLV.MultiSelect = false;
             this.EditCountersLV.Name = "EditCountersLV";
             this.EditCountersLV.RightToLeftLayout = true;
             this.EditCountersLV.ShowItemToolTips = true;
-            this.EditCountersLV.Size = new System.Drawing.Size(870, 408);
+            this.EditCountersLV.Size = new System.Drawing.Size(499, 227);
             this.EditCountersLV.TabIndex = 26;
             this.EditCountersLV.UseCompatibleStateImageBehavior = false;
             this.EditCountersLV.View = System.Windows.Forms.View.Details;
@@ -730,10 +730,10 @@
             // 
             this.label21.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(532, 680);
-            this.label21.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label21.Location = new System.Drawing.Point(304, 375);
+            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(272, 35);
+            this.label21.Size = new System.Drawing.Size(150, 20);
             this.label21.TabIndex = 27;
             this.label21.Text = "בחר השפעה מנוגדת";
             // 
@@ -742,10 +742,10 @@
             this.label20.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("David", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(714, 611);
-            this.label20.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label20.Location = new System.Drawing.Point(408, 337);
+            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(433, 47);
+            this.label20.Size = new System.Drawing.Size(243, 27);
             this.label20.TabIndex = 32;
             this.label20.Text = "עריכת השפעות מנוגדות";
             // 
@@ -755,63 +755,63 @@
             this.EditCountersCounterCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditCountersCounterCB.DropDownWidth = 133;
             this.EditCountersCounterCB.FormattingEnabled = true;
-            this.EditCountersCounterCB.Location = new System.Drawing.Point(504, 723);
-            this.EditCountersCounterCB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditCountersCounterCB.Location = new System.Drawing.Point(288, 399);
+            this.EditCountersCounterCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditCountersCounterCB.Name = "EditCountersCounterCB";
             this.EditCountersCounterCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EditCountersCounterCB.Size = new System.Drawing.Size(305, 43);
+            this.EditCountersCounterCB.Size = new System.Drawing.Size(176, 28);
             this.EditCountersCounterCB.TabIndex = 26;
             // 
             // label19
             // 
             this.label19.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(1038, 373);
-            this.label19.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label19.Location = new System.Drawing.Point(593, 206);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(100, 35);
+            this.label19.Size = new System.Drawing.Size(56, 20);
             this.label19.TabIndex = 31;
             this.label19.Text = "הערות";
             // 
             // EditEffectsCommentTB
             // 
             this.EditEffectsCommentTB.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.EditEffectsCommentTB.Location = new System.Drawing.Point(264, 415);
-            this.EditEffectsCommentTB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditEffectsCommentTB.Location = new System.Drawing.Point(151, 229);
+            this.EditEffectsCommentTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditEffectsCommentTB.Name = "EditEffectsCommentTB";
-            this.EditEffectsCommentTB.Size = new System.Drawing.Size(870, 43);
+            this.EditEffectsCommentTB.Size = new System.Drawing.Size(499, 27);
             this.EditEffectsCommentTB.TabIndex = 30;
             // 
             // label18
             // 
             this.label18.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(915, 236);
-            this.label18.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label18.Location = new System.Drawing.Point(523, 130);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(218, 35);
+            this.label18.Size = new System.Drawing.Size(121, 20);
             this.label18.TabIndex = 29;
             this.label18.Text = "תיאור ההשפעה";
             // 
             // EditEffectsDescriptionTB
             // 
             this.EditEffectsDescriptionTB.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.EditEffectsDescriptionTB.Location = new System.Drawing.Point(264, 279);
-            this.EditEffectsDescriptionTB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditEffectsDescriptionTB.Location = new System.Drawing.Point(151, 154);
+            this.EditEffectsDescriptionTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditEffectsDescriptionTB.Multiline = true;
             this.EditEffectsDescriptionTB.Name = "EditEffectsDescriptionTB";
             this.EditEffectsDescriptionTB.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.EditEffectsDescriptionTB.Size = new System.Drawing.Size(870, 80);
+            this.EditEffectsDescriptionTB.Size = new System.Drawing.Size(499, 46);
             this.EditEffectsDescriptionTB.TabIndex = 28;
             // 
             // label17
             // 
             this.label17.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(534, 114);
-            this.label17.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label17.Location = new System.Drawing.Point(305, 63);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(181, 35);
+            this.label17.Size = new System.Drawing.Size(100, 20);
             this.label17.TabIndex = 25;
             this.label17.Text = "שם ההשפעה";
             // 
@@ -819,20 +819,20 @@
             // 
             this.label16.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(966, 114);
-            this.label16.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label16.Location = new System.Drawing.Point(552, 63);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(171, 35);
+            this.label16.Size = new System.Drawing.Size(94, 20);
             this.label16.TabIndex = 27;
             this.label16.Text = "בחר השפעה";
             // 
             // EditEffectsNameTB
             // 
             this.EditEffectsNameTB.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.EditEffectsNameTB.Location = new System.Drawing.Point(264, 156);
-            this.EditEffectsNameTB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditEffectsNameTB.Location = new System.Drawing.Point(151, 86);
+            this.EditEffectsNameTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditEffectsNameTB.Name = "EditEffectsNameTB";
-            this.EditEffectsNameTB.Size = new System.Drawing.Size(452, 43);
+            this.EditEffectsNameTB.Size = new System.Drawing.Size(260, 27);
             this.EditEffectsNameTB.TabIndex = 24;
             // 
             // label15
@@ -840,10 +840,10 @@
             this.label15.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("David", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(467, 18);
-            this.label15.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label15.Location = new System.Drawing.Point(267, 10);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(664, 65);
+            this.label15.Size = new System.Drawing.Size(365, 36);
             this.label15.TabIndex = 26;
             this.label15.Text = "עריכה והוספה של השפעות";
             // 
@@ -852,11 +852,11 @@
             this.EditEffectsEffectCB.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditEffectsEffectCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditEffectsEffectCB.FormattingEnabled = true;
-            this.EditEffectsEffectCB.Location = new System.Drawing.Point(735, 156);
-            this.EditEffectsEffectCB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditEffectsEffectCB.Location = new System.Drawing.Point(420, 86);
+            this.EditEffectsEffectCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditEffectsEffectCB.Name = "EditEffectsEffectCB";
             this.EditEffectsEffectCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EditEffectsEffectCB.Size = new System.Drawing.Size(403, 43);
+            this.EditEffectsEffectCB.Size = new System.Drawing.Size(232, 28);
             this.EditEffectsEffectCB.TabIndex = 26;
             this.EditEffectsEffectCB.SelectedIndexChanged += new System.EventHandler(this.EditEffectsEffectCB_SelectedIndexChanged);
             // 
@@ -874,10 +874,10 @@
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.EditProductIngredientCB);
             this.panel1.Controls.Add(this.EditProductUndoButton);
-            this.panel1.Location = new System.Drawing.Point(1255, 9);
-            this.panel1.Margin = new System.Windows.Forms.Padding(7);
+            this.panel1.Location = new System.Drawing.Point(717, 5);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(908, 1236);
+            this.panel1.Size = new System.Drawing.Size(519, 682);
             this.panel1.TabIndex = 27;
             // 
             // label9
@@ -885,10 +885,10 @@
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("David", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(191, 18);
-            this.label9.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label9.Location = new System.Drawing.Point(109, 10);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(653, 65);
+            this.label9.Size = new System.Drawing.Size(359, 36);
             this.label9.TabIndex = 25;
             this.label9.Text = "עריכה והוספה של תוצרים";
             // 
@@ -900,21 +900,21 @@
             this.groupBox1.Controls.Add(this.EditProductCommentTB);
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.EditProductMainEffectCB);
-            this.groupBox1.Location = new System.Drawing.Point(35, 937);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(7);
+            this.groupBox1.Location = new System.Drawing.Point(20, 517);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(7);
-            this.groupBox1.Size = new System.Drawing.Size(831, 265);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(475, 146);
             this.groupBox1.TabIndex = 24;
             this.groupBox1.TabStop = false;
             // 
             // EditProductSaveButton
             // 
             this.EditProductSaveButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.EditProductSaveButton.Location = new System.Drawing.Point(14, 85);
-            this.EditProductSaveButton.Margin = new System.Windows.Forms.Padding(7);
+            this.EditProductSaveButton.Location = new System.Drawing.Point(8, 47);
+            this.EditProductSaveButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditProductSaveButton.Name = "EditProductSaveButton";
-            this.EditProductSaveButton.Size = new System.Drawing.Size(194, 154);
+            this.EditProductSaveButton.Size = new System.Drawing.Size(111, 85);
             this.EditProductSaveButton.TabIndex = 23;
             this.EditProductSaveButton.Text = "שמור";
             this.EditProductSaveButton.UseVisualStyleBackColor = true;
@@ -924,30 +924,30 @@
             // 
             this.label14.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(709, 145);
-            this.label14.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label14.Location = new System.Drawing.Point(405, 80);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(100, 35);
+            this.label14.Size = new System.Drawing.Size(56, 20);
             this.label14.TabIndex = 22;
             this.label14.Text = "הערות";
             // 
             // EditProductCommentTB
             // 
             this.EditProductCommentTB.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.EditProductCommentTB.Location = new System.Drawing.Point(222, 187);
-            this.EditProductCommentTB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditProductCommentTB.Location = new System.Drawing.Point(127, 103);
+            this.EditProductCommentTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditProductCommentTB.Name = "EditProductCommentTB";
-            this.EditProductCommentTB.Size = new System.Drawing.Size(590, 43);
+            this.EditProductCommentTB.Size = new System.Drawing.Size(339, 27);
             this.EditProductCommentTB.TabIndex = 21;
             // 
             // label13
             // 
             this.label13.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(513, 42);
-            this.label13.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label13.Location = new System.Drawing.Point(293, 23);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(276, 35);
+            this.label13.Size = new System.Drawing.Size(152, 20);
             this.label13.TabIndex = 19;
             this.label13.Text = "בחר השפעה עיקרית";
             // 
@@ -956,10 +956,10 @@
             this.EditProductMainEffectCB.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditProductMainEffectCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditProductMainEffectCB.FormattingEnabled = true;
-            this.EditProductMainEffectCB.Location = new System.Drawing.Point(222, 85);
-            this.EditProductMainEffectCB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditProductMainEffectCB.Location = new System.Drawing.Point(127, 47);
+            this.EditProductMainEffectCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditProductMainEffectCB.Name = "EditProductMainEffectCB";
-            this.EditProductMainEffectCB.Size = new System.Drawing.Size(583, 43);
+            this.EditProductMainEffectCB.Size = new System.Drawing.Size(335, 28);
             this.EditProductMainEffectCB.TabIndex = 18;
             // 
             // EditProductEffectsLV
@@ -969,13 +969,13 @@
             this.EditProductLVColumn1,
             this.EditProductLVColumn2});
             this.EditProductEffectsLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.EditProductEffectsLV.Location = new System.Drawing.Point(35, 346);
-            this.EditProductEffectsLV.Margin = new System.Windows.Forms.Padding(7);
+            this.EditProductEffectsLV.Location = new System.Drawing.Point(20, 191);
+            this.EditProductEffectsLV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditProductEffectsLV.MultiSelect = false;
             this.EditProductEffectsLV.Name = "EditProductEffectsLV";
             this.EditProductEffectsLV.RightToLeftLayout = true;
             this.EditProductEffectsLV.ShowItemToolTips = true;
-            this.EditProductEffectsLV.Size = new System.Drawing.Size(825, 573);
+            this.EditProductEffectsLV.Size = new System.Drawing.Size(473, 318);
             this.EditProductEffectsLV.TabIndex = 17;
             this.EditProductEffectsLV.UseCompatibleStateImageBehavior = false;
             this.EditProductEffectsLV.View = System.Windows.Forms.View.Details;
@@ -993,10 +993,10 @@
             // EditProductAddEffectButton
             // 
             this.EditProductAddEffectButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.EditProductAddEffectButton.Location = new System.Drawing.Point(35, 279);
-            this.EditProductAddEffectButton.Margin = new System.Windows.Forms.Padding(7);
+            this.EditProductAddEffectButton.Location = new System.Drawing.Point(20, 154);
+            this.EditProductAddEffectButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditProductAddEffectButton.Name = "EditProductAddEffectButton";
-            this.EditProductAddEffectButton.Size = new System.Drawing.Size(287, 54);
+            this.EditProductAddEffectButton.Size = new System.Drawing.Size(164, 30);
             this.EditProductAddEffectButton.TabIndex = 15;
             this.EditProductAddEffectButton.Text = "הוסף השפעה";
             this.EditProductAddEffectButton.UseVisualStyleBackColor = true;
@@ -1006,10 +1006,10 @@
             // 
             this.label12.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(558, 236);
-            this.label12.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label12.Location = new System.Drawing.Point(319, 130);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(171, 35);
+            this.label12.Size = new System.Drawing.Size(94, 20);
             this.label12.TabIndex = 14;
             this.label12.Text = "בחר השפעה";
             // 
@@ -1018,21 +1018,21 @@
             this.EditProductEffectCB.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditProductEffectCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditProductEffectCB.FormattingEnabled = true;
-            this.EditProductEffectCB.Location = new System.Drawing.Point(336, 279);
-            this.EditProductEffectCB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditProductEffectCB.Location = new System.Drawing.Point(192, 154);
+            this.EditProductEffectCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditProductEffectCB.Name = "EditProductEffectCB";
             this.EditProductEffectCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EditProductEffectCB.Size = new System.Drawing.Size(403, 43);
+            this.EditProductEffectCB.Size = new System.Drawing.Size(232, 28);
             this.EditProductEffectCB.TabIndex = 13;
             // 
             // label11
             // 
             this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(257, 114);
-            this.label11.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label11.Location = new System.Drawing.Point(147, 63);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(178, 35);
+            this.label11.Size = new System.Drawing.Size(98, 20);
             this.label11.TabIndex = 12;
             this.label11.Text = "בחר טכניקה";
             // 
@@ -1041,11 +1041,11 @@
             this.EditProductProcedureCB.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditProductProcedureCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditProductProcedureCB.FormattingEnabled = true;
-            this.EditProductProcedureCB.Location = new System.Drawing.Point(35, 156);
-            this.EditProductProcedureCB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditProductProcedureCB.Location = new System.Drawing.Point(20, 86);
+            this.EditProductProcedureCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditProductProcedureCB.Name = "EditProductProcedureCB";
             this.EditProductProcedureCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EditProductProcedureCB.Size = new System.Drawing.Size(403, 43);
+            this.EditProductProcedureCB.Size = new System.Drawing.Size(232, 28);
             this.EditProductProcedureCB.TabIndex = 11;
             this.EditProductProcedureCB.SelectedIndexChanged += new System.EventHandler(this.EditProductProcedureCB_SelectedIndexChanged);
             // 
@@ -1053,10 +1053,10 @@
             // 
             this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(719, 114);
-            this.label10.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label10.Location = new System.Drawing.Point(411, 63);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(139, 35);
+            this.label10.Size = new System.Drawing.Size(75, 20);
             this.label10.TabIndex = 4;
             this.label10.Text = "בחר רכיב";
             // 
@@ -1065,11 +1065,11 @@
             this.EditProductIngredientCB.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditProductIngredientCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditProductIngredientCB.FormattingEnabled = true;
-            this.EditProductIngredientCB.Location = new System.Drawing.Point(457, 156);
-            this.EditProductIngredientCB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditProductIngredientCB.Location = new System.Drawing.Point(261, 86);
+            this.EditProductIngredientCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditProductIngredientCB.Name = "EditProductIngredientCB";
             this.EditProductIngredientCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EditProductIngredientCB.Size = new System.Drawing.Size(403, 43);
+            this.EditProductIngredientCB.Size = new System.Drawing.Size(232, 28);
             this.EditProductIngredientCB.TabIndex = 3;
             this.EditProductIngredientCB.SelectedIndexChanged += new System.EventHandler(this.EditProductIngredientCB_SelectedIndexChanged);
             // 
@@ -1078,10 +1078,10 @@
             this.EditProductUndoButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditProductUndoButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("EditProductUndoButton.BackgroundImage")));
             this.EditProductUndoButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.EditProductUndoButton.Location = new System.Drawing.Point(758, 236);
-            this.EditProductUndoButton.Margin = new System.Windows.Forms.Padding(7);
+            this.EditProductUndoButton.Location = new System.Drawing.Point(433, 130);
+            this.EditProductUndoButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditProductUndoButton.Name = "EditProductUndoButton";
-            this.EditProductUndoButton.Size = new System.Drawing.Size(107, 100);
+            this.EditProductUndoButton.Size = new System.Drawing.Size(61, 55);
             this.EditProductUndoButton.TabIndex = 16;
             this.EditProductUndoButton.UseVisualStyleBackColor = true;
             this.EditProductUndoButton.Click += new System.EventHandler(this.EditProductUndoButton_Click);
@@ -1091,11 +1091,11 @@
             this.tabPage3.AutoScroll = true;
             this.tabPage3.BackColor = System.Drawing.SystemColors.Window;
             this.tabPage3.Controls.Add(this.panel4);
-            this.tabPage3.Location = new System.Drawing.Point(10, 28);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(7);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(7);
-            this.tabPage3.Size = new System.Drawing.Size(2759, 1367);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Size = new System.Drawing.Size(1608, 726);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "עריכת מרכיבים וטכניקות";
             // 
@@ -1118,39 +1118,39 @@
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.EditIngredientCB);
             this.panel4.Controls.Add(this.label1);
-            this.panel4.Location = new System.Drawing.Point(1577, 13);
-            this.panel4.Margin = new System.Windows.Forms.Padding(7);
+            this.panel4.Location = new System.Drawing.Point(941, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.panel4.Size = new System.Drawing.Size(1153, 654);
+            this.panel4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.panel4.Size = new System.Drawing.Size(659, 361);
             this.panel4.TabIndex = 16;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(999, 529);
-            this.label5.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label5.Location = new System.Drawing.Point(571, 292);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 35);
+            this.label5.Size = new System.Drawing.Size(56, 20);
             this.label5.TabIndex = 15;
             this.label5.Text = "הערות";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(497, 426);
-            this.label6.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label6.Location = new System.Drawing.Point(284, 235);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(168, 35);
+            this.label6.Size = new System.Drawing.Size(93, 20);
             this.label6.TabIndex = 14;
             this.label6.Text = "שם טכניקה";
             // 
             // EditTechniqueButton
             // 
-            this.EditTechniqueButton.Location = new System.Drawing.Point(61, 471);
-            this.EditTechniqueButton.Margin = new System.Windows.Forms.Padding(7);
+            this.EditTechniqueButton.Location = new System.Drawing.Point(35, 260);
+            this.EditTechniqueButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditTechniqueButton.Name = "EditTechniqueButton";
-            this.EditTechniqueButton.Size = new System.Drawing.Size(252, 152);
+            this.EditTechniqueButton.Size = new System.Drawing.Size(144, 84);
             this.EditTechniqueButton.TabIndex = 13;
             this.EditTechniqueButton.Text = "שמור שינויים";
             this.EditTechniqueButton.UseVisualStyleBackColor = true;
@@ -1158,27 +1158,27 @@
             // 
             // EditTechCommentTB
             // 
-            this.EditTechCommentTB.Location = new System.Drawing.Point(327, 571);
-            this.EditTechCommentTB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditTechCommentTB.Location = new System.Drawing.Point(187, 315);
+            this.EditTechCommentTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditTechCommentTB.Name = "EditTechCommentTB";
-            this.EditTechCommentTB.Size = new System.Drawing.Size(767, 43);
+            this.EditTechCommentTB.Size = new System.Drawing.Size(440, 27);
             this.EditTechCommentTB.TabIndex = 12;
             // 
             // EditTechNameTB
             // 
-            this.EditTechNameTB.Location = new System.Drawing.Point(327, 468);
-            this.EditTechNameTB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditTechNameTB.Location = new System.Drawing.Point(187, 258);
+            this.EditTechNameTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditTechNameTB.Name = "EditTechNameTB";
-            this.EditTechNameTB.Size = new System.Drawing.Size(342, 43);
+            this.EditTechNameTB.Size = new System.Drawing.Size(197, 27);
             this.EditTechNameTB.TabIndex = 11;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(915, 426);
-            this.label7.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label7.Location = new System.Drawing.Point(523, 235);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(178, 35);
+            this.label7.Size = new System.Drawing.Size(98, 20);
             this.label7.TabIndex = 10;
             this.label7.Text = "בחר טכניקה";
             // 
@@ -1186,11 +1186,11 @@
             // 
             this.EditTechCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditTechCB.FormattingEnabled = true;
-            this.EditTechCB.Location = new System.Drawing.Point(693, 468);
-            this.EditTechCB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditTechCB.Location = new System.Drawing.Point(396, 258);
+            this.EditTechCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditTechCB.Name = "EditTechCB";
             this.EditTechCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EditTechCB.Size = new System.Drawing.Size(403, 43);
+            this.EditTechCB.Size = new System.Drawing.Size(232, 28);
             this.EditTechCB.TabIndex = 9;
             this.EditTechCB.SelectedIndexChanged += new System.EventHandler(this.EditTechCB_SelectedIndexChanged);
             // 
@@ -1198,39 +1198,39 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("David", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(432, 341);
-            this.label8.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label8.Location = new System.Drawing.Point(247, 188);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(676, 65);
+            this.label8.Size = new System.Drawing.Size(371, 36);
             this.label8.TabIndex = 8;
             this.label8.Text = "עריכה והוספה של טכניקות";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(999, 214);
-            this.label4.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label4.Location = new System.Drawing.Point(571, 118);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 35);
+            this.label4.Size = new System.Drawing.Size(56, 20);
             this.label4.TabIndex = 7;
             this.label4.Text = "הערות";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(520, 112);
-            this.label3.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label3.Location = new System.Drawing.Point(297, 62);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(129, 35);
+            this.label3.Size = new System.Drawing.Size(70, 20);
             this.label3.TabIndex = 6;
             this.label3.Text = "שם רכיב";
             // 
             // EditIngredientButton
             // 
-            this.EditIngredientButton.Location = new System.Drawing.Point(61, 154);
-            this.EditIngredientButton.Margin = new System.Windows.Forms.Padding(7);
+            this.EditIngredientButton.Location = new System.Drawing.Point(35, 85);
+            this.EditIngredientButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditIngredientButton.Name = "EditIngredientButton";
-            this.EditIngredientButton.Size = new System.Drawing.Size(252, 154);
+            this.EditIngredientButton.Size = new System.Drawing.Size(144, 85);
             this.EditIngredientButton.TabIndex = 5;
             this.EditIngredientButton.Text = "שמור שינויים";
             this.EditIngredientButton.UseVisualStyleBackColor = true;
@@ -1238,27 +1238,27 @@
             // 
             // EditIngredientCommentTB
             // 
-            this.EditIngredientCommentTB.Location = new System.Drawing.Point(327, 257);
-            this.EditIngredientCommentTB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditIngredientCommentTB.Location = new System.Drawing.Point(187, 142);
+            this.EditIngredientCommentTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditIngredientCommentTB.Name = "EditIngredientCommentTB";
-            this.EditIngredientCommentTB.Size = new System.Drawing.Size(767, 43);
+            this.EditIngredientCommentTB.Size = new System.Drawing.Size(440, 27);
             this.EditIngredientCommentTB.TabIndex = 4;
             // 
             // EditIngredientNameTB
             // 
-            this.EditIngredientNameTB.Location = new System.Drawing.Point(327, 154);
-            this.EditIngredientNameTB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditIngredientNameTB.Location = new System.Drawing.Point(187, 85);
+            this.EditIngredientNameTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditIngredientNameTB.Name = "EditIngredientNameTB";
-            this.EditIngredientNameTB.Size = new System.Drawing.Size(342, 43);
+            this.EditIngredientNameTB.Size = new System.Drawing.Size(197, 27);
             this.EditIngredientNameTB.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(954, 112);
-            this.label2.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label2.Location = new System.Drawing.Point(545, 62);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(139, 35);
+            this.label2.Size = new System.Drawing.Size(75, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "בחר רכיב";
             // 
@@ -1266,11 +1266,11 @@
             // 
             this.EditIngredientCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditIngredientCB.FormattingEnabled = true;
-            this.EditIngredientCB.Location = new System.Drawing.Point(693, 154);
-            this.EditIngredientCB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditIngredientCB.Location = new System.Drawing.Point(396, 85);
+            this.EditIngredientCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditIngredientCB.Name = "EditIngredientCB";
             this.EditIngredientCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EditIngredientCB.Size = new System.Drawing.Size(403, 43);
+            this.EditIngredientCB.Size = new System.Drawing.Size(232, 28);
             this.EditIngredientCB.TabIndex = 1;
             this.EditIngredientCB.SelectedIndexChanged += new System.EventHandler(this.EditIngredientCB_SelectedIndexChanged);
             // 
@@ -1278,10 +1278,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("David", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(448, 27);
-            this.label1.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label1.Location = new System.Drawing.Point(256, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(644, 65);
+            this.label1.Size = new System.Drawing.Size(354, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "עריכה והוספה של רכיבים";
             // 
@@ -1290,11 +1290,11 @@
             this.tabPage4.AutoScroll = true;
             this.tabPage4.BackColor = System.Drawing.SystemColors.Window;
             this.tabPage4.Controls.Add(this.panel5);
-            this.tabPage4.Location = new System.Drawing.Point(10, 28);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(7);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(7);
-            this.tabPage4.Size = new System.Drawing.Size(2759, 1367);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage4.Size = new System.Drawing.Size(1608, 726);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "עריכת שיקויים";
             // 
@@ -1314,19 +1314,19 @@
             this.panel5.Controls.Add(this.EditPotionNameTB);
             this.panel5.Controls.Add(this.label44);
             this.panel5.Controls.Add(this.EditPotionDescriptionTB);
-            this.panel5.Location = new System.Drawing.Point(1218, 22);
-            this.panel5.Margin = new System.Windows.Forms.Padding(7);
+            this.panel5.Location = new System.Drawing.Point(731, 8);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel5.Name = "panel5";
-            this.panel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.panel5.Size = new System.Drawing.Size(1521, 799);
+            this.panel5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.panel5.Size = new System.Drawing.Size(869, 441);
             this.panel5.TabIndex = 60;
             // 
             // EditPotionDeleteButton
             // 
-            this.EditPotionDeleteButton.Location = new System.Drawing.Point(37, 642);
-            this.EditPotionDeleteButton.Margin = new System.Windows.Forms.Padding(7);
+            this.EditPotionDeleteButton.Location = new System.Drawing.Point(21, 354);
+            this.EditPotionDeleteButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditPotionDeleteButton.Name = "EditPotionDeleteButton";
-            this.EditPotionDeleteButton.Size = new System.Drawing.Size(240, 96);
+            this.EditPotionDeleteButton.Size = new System.Drawing.Size(137, 53);
             this.EditPotionDeleteButton.TabIndex = 59;
             this.EditPotionDeleteButton.Text = "מחק שיקוי";
             this.EditPotionDeleteButton.UseVisualStyleBackColor = true;
@@ -1334,10 +1334,10 @@
             // 
             // EditPotionSaveButton
             // 
-            this.EditPotionSaveButton.Location = new System.Drawing.Point(1255, 642);
-            this.EditPotionSaveButton.Margin = new System.Windows.Forms.Padding(7);
+            this.EditPotionSaveButton.Location = new System.Drawing.Point(717, 354);
+            this.EditPotionSaveButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditPotionSaveButton.Name = "EditPotionSaveButton";
-            this.EditPotionSaveButton.Size = new System.Drawing.Size(240, 96);
+            this.EditPotionSaveButton.Size = new System.Drawing.Size(137, 53);
             this.EditPotionSaveButton.TabIndex = 58;
             this.EditPotionSaveButton.Text = "שמור שינויים";
             this.EditPotionSaveButton.UseVisualStyleBackColor = true;
@@ -1346,10 +1346,10 @@
             // label47
             // 
             this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(1265, 196);
-            this.label47.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label47.Location = new System.Drawing.Point(723, 108);
+            this.label47.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(225, 35);
+            this.label47.Size = new System.Drawing.Size(125, 20);
             this.label47.TabIndex = 57;
             this.label47.Text = "השפעות השיקוי";
             // 
@@ -1359,13 +1359,13 @@
             this.columnHeader13});
             this.EditPotionEffectsLV.Font = new System.Drawing.Font("David", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EditPotionEffectsLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
-            this.EditPotionEffectsLV.Location = new System.Drawing.Point(1101, 239);
-            this.EditPotionEffectsLV.Margin = new System.Windows.Forms.Padding(7);
+            this.EditPotionEffectsLV.Location = new System.Drawing.Point(629, 132);
+            this.EditPotionEffectsLV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditPotionEffectsLV.MultiSelect = false;
             this.EditPotionEffectsLV.Name = "EditPotionEffectsLV";
             this.EditPotionEffectsLV.RightToLeftLayout = true;
             this.EditPotionEffectsLV.ShowItemToolTips = true;
-            this.EditPotionEffectsLV.Size = new System.Drawing.Size(389, 385);
+            this.EditPotionEffectsLV.Size = new System.Drawing.Size(224, 214);
             this.EditPotionEffectsLV.TabIndex = 56;
             this.EditPotionEffectsLV.UseCompatibleStateImageBehavior = false;
             this.EditPotionEffectsLV.View = System.Windows.Forms.View.Details;
@@ -1379,20 +1379,20 @@
             // 
             this.label46.AutoSize = true;
             this.label46.Font = new System.Drawing.Font("David", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(1101, 18);
-            this.label46.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label46.Location = new System.Drawing.Point(629, 10);
+            this.label46.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(390, 65);
+            this.label46.Size = new System.Drawing.Size(216, 36);
             this.label46.TabIndex = 55;
             this.label46.Text = "עריכת שיקויים";
             // 
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(1337, 96);
-            this.label45.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label45.Location = new System.Drawing.Point(764, 53);
+            this.label45.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(153, 35);
+            this.label45.Size = new System.Drawing.Size(84, 20);
             this.label45.TabIndex = 54;
             this.label45.Text = "בחר שיקוי";
             // 
@@ -1400,68 +1400,68 @@
             // 
             this.EditPotionCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditPotionCB.FormattingEnabled = true;
-            this.EditPotionCB.Location = new System.Drawing.Point(1101, 138);
-            this.EditPotionCB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditPotionCB.Location = new System.Drawing.Point(629, 76);
+            this.EditPotionCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditPotionCB.Name = "EditPotionCB";
             this.EditPotionCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EditPotionCB.Size = new System.Drawing.Size(389, 43);
+            this.EditPotionCB.Size = new System.Drawing.Size(224, 28);
             this.EditPotionCB.TabIndex = 53;
             this.EditPotionCB.SelectedIndexChanged += new System.EventHandler(this.EditPotionCB_SelectedIndexChanged);
             // 
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(341, 96);
-            this.label42.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label42.Location = new System.Drawing.Point(195, 53);
+            this.label42.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(228, 35);
+            this.label42.Size = new System.Drawing.Size(125, 20);
             this.label42.TabIndex = 52;
             this.label42.Text = "שם יוצר השיקוי";
             // 
             // EditPotionCreatorTB
             // 
-            this.EditPotionCreatorTB.Location = new System.Drawing.Point(37, 138);
-            this.EditPotionCreatorTB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditPotionCreatorTB.Location = new System.Drawing.Point(21, 76);
+            this.EditPotionCreatorTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditPotionCreatorTB.Name = "EditPotionCreatorTB";
-            this.EditPotionCreatorTB.Size = new System.Drawing.Size(536, 43);
+            this.EditPotionCreatorTB.Size = new System.Drawing.Size(308, 27);
             this.EditPotionCreatorTB.TabIndex = 51;
             // 
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(905, 96);
-            this.label43.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label43.Location = new System.Drawing.Point(517, 53);
+            this.label43.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(163, 35);
+            this.label43.Size = new System.Drawing.Size(90, 20);
             this.label43.TabIndex = 50;
             this.label43.Text = "שם השיקוי";
             // 
             // EditPotionNameTB
             // 
-            this.EditPotionNameTB.Location = new System.Drawing.Point(593, 138);
-            this.EditPotionNameTB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditPotionNameTB.Location = new System.Drawing.Point(339, 76);
+            this.EditPotionNameTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditPotionNameTB.Name = "EditPotionNameTB";
-            this.EditPotionNameTB.Size = new System.Drawing.Size(475, 43);
+            this.EditPotionNameTB.Size = new System.Drawing.Size(273, 27);
             this.EditPotionNameTB.TabIndex = 49;
             // 
             // label44
             // 
             this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(868, 196);
-            this.label44.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label44.Location = new System.Drawing.Point(496, 108);
+            this.label44.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(200, 35);
+            this.label44.Size = new System.Drawing.Size(111, 20);
             this.label44.TabIndex = 48;
             this.label44.Text = "תיאור השיקוי";
             // 
             // EditPotionDescriptionTB
             // 
-            this.EditPotionDescriptionTB.Location = new System.Drawing.Point(37, 239);
-            this.EditPotionDescriptionTB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditPotionDescriptionTB.Location = new System.Drawing.Point(21, 132);
+            this.EditPotionDescriptionTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditPotionDescriptionTB.Multiline = true;
             this.EditPotionDescriptionTB.Name = "EditPotionDescriptionTB";
             this.EditPotionDescriptionTB.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.EditPotionDescriptionTB.Size = new System.Drawing.Size(1031, 385);
+            this.EditPotionDescriptionTB.Size = new System.Drawing.Size(591, 214);
             this.EditPotionDescriptionTB.TabIndex = 47;
             // 
             // tabPage5
@@ -1469,11 +1469,11 @@
             this.tabPage5.AutoScroll = true;
             this.tabPage5.BackColor = System.Drawing.SystemColors.Window;
             this.tabPage5.Controls.Add(this.panel6);
-            this.tabPage5.Location = new System.Drawing.Point(10, 28);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(7);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(7);
-            this.tabPage5.Size = new System.Drawing.Size(2759, 1367);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Size = new System.Drawing.Size(1608, 726);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "מידע על השפעות";
             // 
@@ -1489,20 +1489,20 @@
             this.panel6.Controls.Add(this.EffectInfoAddButton);
             this.panel6.Controls.Add(this.label48);
             this.panel6.Controls.Add(this.EffectInfoCB);
-            this.panel6.Location = new System.Drawing.Point(1178, 25);
-            this.panel6.Margin = new System.Windows.Forms.Padding(7);
+            this.panel6.Location = new System.Drawing.Point(673, 14);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel6.Name = "panel6";
-            this.panel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.panel6.Size = new System.Drawing.Size(1556, 1164);
+            this.panel6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.panel6.Size = new System.Drawing.Size(889, 642);
             this.panel6.TabIndex = 62;
             // 
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(1267, 477);
-            this.label51.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label51.Location = new System.Drawing.Point(724, 263);
+            this.label51.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(230, 35);
+            this.label51.Size = new System.Drawing.Size(127, 20);
             this.label51.TabIndex = 61;
             this.label51.Text = "שיקויים מכילים";
             // 
@@ -1512,13 +1512,13 @@
             this.columnHeader17});
             this.EffectInfoPotionLV.Font = new System.Drawing.Font("David", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EffectInfoPotionLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
-            this.EffectInfoPotionLV.Location = new System.Drawing.Point(845, 520);
-            this.EffectInfoPotionLV.Margin = new System.Windows.Forms.Padding(7);
+            this.EffectInfoPotionLV.Location = new System.Drawing.Point(483, 287);
+            this.EffectInfoPotionLV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EffectInfoPotionLV.MultiSelect = false;
             this.EffectInfoPotionLV.Name = "EffectInfoPotionLV";
             this.EffectInfoPotionLV.RightToLeftLayout = true;
             this.EffectInfoPotionLV.ShowItemToolTips = true;
-            this.EffectInfoPotionLV.Size = new System.Drawing.Size(655, 528);
+            this.EffectInfoPotionLV.Size = new System.Drawing.Size(376, 293);
             this.EffectInfoPotionLV.TabIndex = 60;
             this.EffectInfoPotionLV.UseCompatibleStateImageBehavior = false;
             this.EffectInfoPotionLV.View = System.Windows.Forms.View.Details;
@@ -1531,10 +1531,10 @@
             // label50
             // 
             this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(602, 473);
-            this.label50.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label50.Location = new System.Drawing.Point(344, 261);
+            this.label50.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(221, 35);
+            this.label50.Size = new System.Drawing.Size(122, 20);
             this.label50.TabIndex = 59;
             this.label50.Text = "תוצרים מכילים";
             // 
@@ -1544,13 +1544,13 @@
             this.columnHeader16});
             this.EffectInfoProductLV.Font = new System.Drawing.Font("David", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EffectInfoProductLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
-            this.EffectInfoProductLV.Location = new System.Drawing.Point(170, 520);
-            this.EffectInfoProductLV.Margin = new System.Windows.Forms.Padding(7);
+            this.EffectInfoProductLV.Location = new System.Drawing.Point(97, 287);
+            this.EffectInfoProductLV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EffectInfoProductLV.MultiSelect = false;
             this.EffectInfoProductLV.Name = "EffectInfoProductLV";
             this.EffectInfoProductLV.RightToLeftLayout = true;
             this.EffectInfoProductLV.ShowItemToolTips = true;
-            this.EffectInfoProductLV.Size = new System.Drawing.Size(655, 528);
+            this.EffectInfoProductLV.Size = new System.Drawing.Size(376, 293);
             this.EffectInfoProductLV.TabIndex = 58;
             this.EffectInfoProductLV.UseCompatibleStateImageBehavior = false;
             this.EffectInfoProductLV.View = System.Windows.Forms.View.Details;
@@ -1564,10 +1564,10 @@
             // 
             this.label49.AutoSize = true;
             this.label49.Font = new System.Drawing.Font("David", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(1076, 0);
-            this.label49.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label49.Location = new System.Drawing.Point(615, 0);
+            this.label49.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(427, 65);
+            this.label49.Size = new System.Drawing.Size(235, 36);
             this.label49.TabIndex = 56;
             this.label49.Text = "מידע על השפעות";
             // 
@@ -1577,13 +1577,13 @@
             this.columnHeader14,
             this.columnHeader15});
             this.EffectInfoEffectLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.EffectInfoEffectLV.Location = new System.Drawing.Point(170, 118);
-            this.EffectInfoEffectLV.Margin = new System.Windows.Forms.Padding(7);
+            this.EffectInfoEffectLV.Location = new System.Drawing.Point(97, 65);
+            this.EffectInfoEffectLV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EffectInfoEffectLV.MultiSelect = false;
             this.EffectInfoEffectLV.Name = "EffectInfoEffectLV";
             this.EffectInfoEffectLV.RightToLeftLayout = true;
             this.EffectInfoEffectLV.ShowItemToolTips = true;
-            this.EffectInfoEffectLV.Size = new System.Drawing.Size(972, 334);
+            this.EffectInfoEffectLV.Size = new System.Drawing.Size(557, 186);
             this.EffectInfoEffectLV.TabIndex = 21;
             this.EffectInfoEffectLV.UseCompatibleStateImageBehavior = false;
             this.EffectInfoEffectLV.View = System.Windows.Forms.View.Details;
@@ -1600,10 +1600,10 @@
             // 
             // EffectInfoAddButton
             // 
-            this.EffectInfoAddButton.Location = new System.Drawing.Point(1162, 228);
-            this.EffectInfoAddButton.Margin = new System.Windows.Forms.Padding(7);
+            this.EffectInfoAddButton.Location = new System.Drawing.Point(664, 126);
+            this.EffectInfoAddButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EffectInfoAddButton.Name = "EffectInfoAddButton";
-            this.EffectInfoAddButton.Size = new System.Drawing.Size(341, 103);
+            this.EffectInfoAddButton.Size = new System.Drawing.Size(195, 57);
             this.EffectInfoAddButton.TabIndex = 20;
             this.EffectInfoAddButton.Text = "הוסף השפעה";
             this.EffectInfoAddButton.UseVisualStyleBackColor = true;
@@ -1612,10 +1612,10 @@
             // label48
             // 
             this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(1325, 118);
-            this.label48.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label48.Location = new System.Drawing.Point(757, 65);
+            this.label48.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(171, 35);
+            this.label48.Size = new System.Drawing.Size(94, 20);
             this.label48.TabIndex = 19;
             this.label48.Text = "בחר השפעה";
             // 
@@ -1623,11 +1623,11 @@
             // 
             this.EffectInfoCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EffectInfoCB.FormattingEnabled = true;
-            this.EffectInfoCB.Location = new System.Drawing.Point(1162, 161);
-            this.EffectInfoCB.Margin = new System.Windows.Forms.Padding(7);
+            this.EffectInfoCB.Location = new System.Drawing.Point(664, 89);
+            this.EffectInfoCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EffectInfoCB.Name = "EffectInfoCB";
             this.EffectInfoCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EffectInfoCB.Size = new System.Drawing.Size(335, 43);
+            this.EffectInfoCB.Size = new System.Drawing.Size(193, 28);
             this.EffectInfoCB.TabIndex = 18;
             this.EffectInfoCB.SelectedIndexChanged += new System.EventHandler(this.EffectInfoCB_SelectedIndexChanged);
             // 
@@ -1636,11 +1636,11 @@
             this.tabPage6.AutoScroll = true;
             this.tabPage6.BackColor = System.Drawing.SystemColors.Window;
             this.tabPage6.Controls.Add(this.panel3);
-            this.tabPage6.Location = new System.Drawing.Point(10, 28);
-            this.tabPage6.Margin = new System.Windows.Forms.Padding(7);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(7);
-            this.tabPage6.Size = new System.Drawing.Size(2759, 1367);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage6.Size = new System.Drawing.Size(1608, 726);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "חומרים מיוחדים";
             // 
@@ -1662,21 +1662,21 @@
             this.panel3.Controls.Add(this.label29);
             this.panel3.Controls.Add(this.EditSpecialsNameTB);
             this.panel3.Controls.Add(this.EditSpecialsCB);
-            this.panel3.Location = new System.Drawing.Point(1524, 11);
-            this.panel3.Margin = new System.Windows.Forms.Padding(7);
+            this.panel3.Location = new System.Drawing.Point(931, 8);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.panel3.Size = new System.Drawing.Size(1171, 1234);
+            this.panel3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.panel3.Size = new System.Drawing.Size(669, 681);
             this.panel3.TabIndex = 29;
             // 
             // label27
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("David", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(695, 428);
-            this.label27.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label27.Location = new System.Drawing.Point(397, 236);
+            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(438, 47);
+            this.label27.Size = new System.Drawing.Size(245, 27);
             this.label27.TabIndex = 34;
             this.label27.Text = "השפעות החומר המיוחד";
             // 
@@ -1684,19 +1684,19 @@
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("David", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(240, 11);
-            this.label30.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label30.Location = new System.Drawing.Point(137, 6);
+            this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(878, 65);
+            this.label30.Size = new System.Drawing.Size(483, 36);
             this.label30.TabIndex = 33;
             this.label30.Text = "עריכה והוספה של חומרים מיוחדים";
             // 
             // EditSpecialAddTransmuteButton
             // 
-            this.EditSpecialAddTransmuteButton.Location = new System.Drawing.Point(268, 549);
-            this.EditSpecialAddTransmuteButton.Margin = new System.Windows.Forms.Padding(7);
+            this.EditSpecialAddTransmuteButton.Location = new System.Drawing.Point(153, 303);
+            this.EditSpecialAddTransmuteButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditSpecialAddTransmuteButton.Name = "EditSpecialAddTransmuteButton";
-            this.EditSpecialAddTransmuteButton.Size = new System.Drawing.Size(226, 54);
+            this.EditSpecialAddTransmuteButton.Size = new System.Drawing.Size(129, 30);
             this.EditSpecialAddTransmuteButton.TabIndex = 26;
             this.EditSpecialAddTransmuteButton.Text = "הוסף התמרה";
             this.EditSpecialAddTransmuteButton.UseVisualStyleBackColor = true;
@@ -1705,19 +1705,19 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(884, 506);
-            this.label23.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label23.Location = new System.Drawing.Point(505, 279);
+            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(250, 35);
+            this.label23.Size = new System.Drawing.Size(138, 20);
             this.label23.TabIndex = 27;
             this.label23.Text = "בחר השפעת מקור";
             // 
             // EditSpecialSaveButton
             // 
-            this.EditSpecialSaveButton.Location = new System.Drawing.Point(504, 355);
-            this.EditSpecialSaveButton.Margin = new System.Windows.Forms.Padding(7);
+            this.EditSpecialSaveButton.Location = new System.Drawing.Point(288, 196);
+            this.EditSpecialSaveButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditSpecialSaveButton.Name = "EditSpecialSaveButton";
-            this.EditSpecialSaveButton.Size = new System.Drawing.Size(376, 51);
+            this.EditSpecialSaveButton.Size = new System.Drawing.Size(215, 28);
             this.EditSpecialSaveButton.TabIndex = 33;
             this.EditSpecialSaveButton.Text = "שמור שינויים";
             this.EditSpecialSaveButton.UseVisualStyleBackColor = true;
@@ -1727,11 +1727,11 @@
             // 
             this.EditSpecialOriginEffectCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditSpecialOriginEffectCB.FormattingEnabled = true;
-            this.EditSpecialOriginEffectCB.Location = new System.Drawing.Point(833, 549);
-            this.EditSpecialOriginEffectCB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditSpecialOriginEffectCB.Location = new System.Drawing.Point(476, 303);
+            this.EditSpecialOriginEffectCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditSpecialOriginEffectCB.Name = "EditSpecialOriginEffectCB";
             this.EditSpecialOriginEffectCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EditSpecialOriginEffectCB.Size = new System.Drawing.Size(305, 43);
+            this.EditSpecialOriginEffectCB.Size = new System.Drawing.Size(176, 28);
             this.EditSpecialOriginEffectCB.TabIndex = 26;
             this.EditSpecialOriginEffectCB.SelectedIndexChanged += new System.EventHandler(this.EditSpecialOriginEffectCB_SelectedIndexChanged);
             // 
@@ -1744,13 +1744,13 @@
             this.columnHeader5});
             this.EditSpecialTransmuteLV.ForeColor = System.Drawing.Color.Black;
             this.EditSpecialTransmuteLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.EditSpecialTransmuteLV.Location = new System.Drawing.Point(264, 616);
-            this.EditSpecialTransmuteLV.Margin = new System.Windows.Forms.Padding(7);
+            this.EditSpecialTransmuteLV.Location = new System.Drawing.Point(151, 340);
+            this.EditSpecialTransmuteLV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditSpecialTransmuteLV.MultiSelect = false;
             this.EditSpecialTransmuteLV.Name = "EditSpecialTransmuteLV";
             this.EditSpecialTransmuteLV.RightToLeftLayout = true;
             this.EditSpecialTransmuteLV.ShowItemToolTips = true;
-            this.EditSpecialTransmuteLV.Size = new System.Drawing.Size(874, 408);
+            this.EditSpecialTransmuteLV.Size = new System.Drawing.Size(501, 227);
             this.EditSpecialTransmuteLV.TabIndex = 26;
             this.EditSpecialTransmuteLV.UseCompatibleStateImageBehavior = false;
             this.EditSpecialTransmuteLV.View = System.Windows.Forms.View.Details;
@@ -1773,10 +1773,10 @@
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(586, 506);
-            this.label24.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label24.Location = new System.Drawing.Point(335, 279);
+            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(224, 35);
+            this.label24.Size = new System.Drawing.Size(123, 20);
             this.label24.TabIndex = 27;
             this.label24.Text = "בחר השפעת יעד";
             // 
@@ -1785,68 +1785,68 @@
             this.EditSpecialDestEffectCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditSpecialDestEffectCB.DropDownWidth = 133;
             this.EditSpecialDestEffectCB.FormattingEnabled = true;
-            this.EditSpecialDestEffectCB.Location = new System.Drawing.Point(509, 549);
-            this.EditSpecialDestEffectCB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditSpecialDestEffectCB.Location = new System.Drawing.Point(291, 303);
+            this.EditSpecialDestEffectCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditSpecialDestEffectCB.Name = "EditSpecialDestEffectCB";
             this.EditSpecialDestEffectCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EditSpecialDestEffectCB.Size = new System.Drawing.Size(305, 43);
+            this.EditSpecialDestEffectCB.Size = new System.Drawing.Size(176, 28);
             this.EditSpecialDestEffectCB.TabIndex = 26;
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(1043, 228);
-            this.label26.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label26.Location = new System.Drawing.Point(596, 126);
+            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(100, 35);
+            this.label26.Size = new System.Drawing.Size(56, 20);
             this.label26.TabIndex = 31;
             this.label26.Text = "הערות";
             // 
             // EditSpecialsCommentTB
             // 
-            this.EditSpecialsCommentTB.Location = new System.Drawing.Point(268, 270);
-            this.EditSpecialsCommentTB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditSpecialsCommentTB.Location = new System.Drawing.Point(153, 149);
+            this.EditSpecialsCommentTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditSpecialsCommentTB.Name = "EditSpecialsCommentTB";
-            this.EditSpecialsCommentTB.Size = new System.Drawing.Size(870, 43);
+            this.EditSpecialsCommentTB.Size = new System.Drawing.Size(499, 27);
             this.EditSpecialsCommentTB.TabIndex = 30;
             // 
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(488, 114);
-            this.label28.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label28.Location = new System.Drawing.Point(279, 63);
+            this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(224, 35);
+            this.label28.Size = new System.Drawing.Size(123, 20);
             this.label28.TabIndex = 25;
             this.label28.Text = "שם חומר מיוחד";
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(889, 114);
-            this.label29.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label29.Location = new System.Drawing.Point(508, 63);
+            this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(234, 35);
+            this.label29.Size = new System.Drawing.Size(128, 20);
             this.label29.TabIndex = 27;
             this.label29.Text = "בחר חומר מיוחד";
             // 
             // EditSpecialsNameTB
             // 
-            this.EditSpecialsNameTB.Location = new System.Drawing.Point(264, 156);
-            this.EditSpecialsNameTB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditSpecialsNameTB.Location = new System.Drawing.Point(151, 86);
+            this.EditSpecialsNameTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditSpecialsNameTB.Name = "EditSpecialsNameTB";
-            this.EditSpecialsNameTB.Size = new System.Drawing.Size(452, 43);
+            this.EditSpecialsNameTB.Size = new System.Drawing.Size(260, 27);
             this.EditSpecialsNameTB.TabIndex = 24;
             // 
             // EditSpecialsCB
             // 
             this.EditSpecialsCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.EditSpecialsCB.FormattingEnabled = true;
-            this.EditSpecialsCB.Location = new System.Drawing.Point(735, 156);
-            this.EditSpecialsCB.Margin = new System.Windows.Forms.Padding(7);
+            this.EditSpecialsCB.Location = new System.Drawing.Point(420, 86);
+            this.EditSpecialsCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditSpecialsCB.Name = "EditSpecialsCB";
             this.EditSpecialsCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EditSpecialsCB.Size = new System.Drawing.Size(403, 43);
+            this.EditSpecialsCB.Size = new System.Drawing.Size(232, 28);
             this.EditSpecialsCB.TabIndex = 26;
             this.EditSpecialsCB.SelectedIndexChanged += new System.EventHandler(this.EditSpecialsCB_SelectedIndexChanged);
             // 
@@ -1855,11 +1855,11 @@
             this.tabPage7.AutoScroll = true;
             this.tabPage7.BackColor = System.Drawing.SystemColors.Window;
             this.tabPage7.Controls.Add(this.panel7);
-            this.tabPage7.Location = new System.Drawing.Point(10, 28);
-            this.tabPage7.Margin = new System.Windows.Forms.Padding(7);
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(7);
-            this.tabPage7.Size = new System.Drawing.Size(2759, 1367);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage7.Size = new System.Drawing.Size(1608, 726);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "סולמות עוצמה";
             // 
@@ -1875,11 +1875,11 @@
             this.panel7.Controls.Add(this.SpecialPowerUpButton);
             this.panel7.Controls.Add(this.EffectPowerDownButton);
             this.panel7.Controls.Add(this.EffectPowerUpButton);
-            this.panel7.Location = new System.Drawing.Point(936, 13);
-            this.panel7.Margin = new System.Windows.Forms.Padding(7);
+            this.panel7.Location = new System.Drawing.Point(565, 12);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel7.Name = "panel7";
-            this.panel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.panel7.Size = new System.Drawing.Size(1811, 1294);
+            this.panel7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.panel7.Size = new System.Drawing.Size(1035, 714);
             this.panel7.TabIndex = 11;
             // 
             // UpdatePowerSpecialLV
@@ -1888,13 +1888,13 @@
             this.columnHeader11});
             this.UpdatePowerSpecialLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
             this.UpdatePowerSpecialLV.HideSelection = false;
-            this.UpdatePowerSpecialLV.Location = new System.Drawing.Point(100, 203);
-            this.UpdatePowerSpecialLV.Margin = new System.Windows.Forms.Padding(7);
+            this.UpdatePowerSpecialLV.Location = new System.Drawing.Point(57, 112);
+            this.UpdatePowerSpecialLV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.UpdatePowerSpecialLV.MultiSelect = false;
             this.UpdatePowerSpecialLV.Name = "UpdatePowerSpecialLV";
             this.UpdatePowerSpecialLV.RightToLeftLayout = true;
             this.UpdatePowerSpecialLV.ShowItemToolTips = true;
-            this.UpdatePowerSpecialLV.Size = new System.Drawing.Size(664, 1075);
+            this.UpdatePowerSpecialLV.Size = new System.Drawing.Size(381, 595);
             this.UpdatePowerSpecialLV.TabIndex = 10;
             this.UpdatePowerSpecialLV.UseCompatibleStateImageBehavior = false;
             this.UpdatePowerSpecialLV.View = System.Windows.Forms.View.List;
@@ -1906,20 +1906,20 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(329, 161);
-            this.label32.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label32.Location = new System.Drawing.Point(188, 89);
+            this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(423, 35);
+            this.label32.Size = new System.Drawing.Size(233, 20);
             this.label32.TabIndex = 9;
             this.label32.Text = "עריכת עוצמת חומרים מיוחדים";
             // 
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(1472, 161);
-            this.label31.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label31.Location = new System.Drawing.Point(841, 89);
+            this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(306, 35);
+            this.label31.Size = new System.Drawing.Size(170, 20);
             this.label31.TabIndex = 8;
             this.label31.Text = "עריכת עוצמת השפעות";
             // 
@@ -1929,13 +1929,13 @@
             this.columnHeader9});
             this.UpdatePowerEffectLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
             this.UpdatePowerEffectLV.HideSelection = false;
-            this.UpdatePowerEffectLV.Location = new System.Drawing.Point(1125, 203);
-            this.UpdatePowerEffectLV.Margin = new System.Windows.Forms.Padding(7);
+            this.UpdatePowerEffectLV.Location = new System.Drawing.Point(643, 112);
+            this.UpdatePowerEffectLV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.UpdatePowerEffectLV.MultiSelect = false;
             this.UpdatePowerEffectLV.Name = "UpdatePowerEffectLV";
             this.UpdatePowerEffectLV.RightToLeftLayout = true;
             this.UpdatePowerEffectLV.ShowItemToolTips = true;
-            this.UpdatePowerEffectLV.Size = new System.Drawing.Size(664, 1075);
+            this.UpdatePowerEffectLV.Size = new System.Drawing.Size(381, 595);
             this.UpdatePowerEffectLV.TabIndex = 2;
             this.UpdatePowerEffectLV.UseCompatibleStateImageBehavior = false;
             this.UpdatePowerEffectLV.View = System.Windows.Forms.View.Details;
@@ -1949,10 +1949,10 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("David", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(1288, 33);
-            this.label25.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label25.Location = new System.Drawing.Point(736, 18);
+            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(491, 65);
+            this.label25.Size = new System.Drawing.Size(269, 36);
             this.label25.TabIndex = 1;
             this.label25.Text = "עריכת רמות עוצמה";
             // 
@@ -1960,10 +1960,10 @@
             // 
             this.SpecialPowerDownButton.BackgroundImage = global::LibraAlchemy.Properties.Resources.arrow4rev;
             this.SpecialPowerDownButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.SpecialPowerDownButton.Location = new System.Drawing.Point(784, 707);
-            this.SpecialPowerDownButton.Margin = new System.Windows.Forms.Padding(7);
+            this.SpecialPowerDownButton.Location = new System.Drawing.Point(448, 390);
+            this.SpecialPowerDownButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SpecialPowerDownButton.Name = "SpecialPowerDownButton";
-            this.SpecialPowerDownButton.Size = new System.Drawing.Size(103, 89);
+            this.SpecialPowerDownButton.Size = new System.Drawing.Size(59, 49);
             this.SpecialPowerDownButton.TabIndex = 7;
             this.SpecialPowerDownButton.UseVisualStyleBackColor = true;
             this.SpecialPowerDownButton.Click += new System.EventHandler(this.SpecialPowerDownButton_Click);
@@ -1972,10 +1972,10 @@
             // 
             this.SpecialPowerUpButton.BackgroundImage = global::LibraAlchemy.Properties.Resources.arrow4;
             this.SpecialPowerUpButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.SpecialPowerUpButton.Location = new System.Drawing.Point(784, 605);
-            this.SpecialPowerUpButton.Margin = new System.Windows.Forms.Padding(7);
+            this.SpecialPowerUpButton.Location = new System.Drawing.Point(448, 334);
+            this.SpecialPowerUpButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SpecialPowerUpButton.Name = "SpecialPowerUpButton";
-            this.SpecialPowerUpButton.Size = new System.Drawing.Size(103, 89);
+            this.SpecialPowerUpButton.Size = new System.Drawing.Size(59, 49);
             this.SpecialPowerUpButton.TabIndex = 6;
             this.SpecialPowerUpButton.UseVisualStyleBackColor = true;
             this.SpecialPowerUpButton.Click += new System.EventHandler(this.SpecialPowerUpButton_Click);
@@ -1984,10 +1984,10 @@
             // 
             this.EffectPowerDownButton.BackgroundImage = global::LibraAlchemy.Properties.Resources.arrow4rev;
             this.EffectPowerDownButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.EffectPowerDownButton.Location = new System.Drawing.Point(1008, 707);
-            this.EffectPowerDownButton.Margin = new System.Windows.Forms.Padding(7);
+            this.EffectPowerDownButton.Location = new System.Drawing.Point(576, 390);
+            this.EffectPowerDownButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EffectPowerDownButton.Name = "EffectPowerDownButton";
-            this.EffectPowerDownButton.Size = new System.Drawing.Size(103, 89);
+            this.EffectPowerDownButton.Size = new System.Drawing.Size(59, 49);
             this.EffectPowerDownButton.TabIndex = 5;
             this.EffectPowerDownButton.UseVisualStyleBackColor = true;
             this.EffectPowerDownButton.Click += new System.EventHandler(this.EffectPowerDownButton_Click);
@@ -1996,10 +1996,10 @@
             // 
             this.EffectPowerUpButton.BackgroundImage = global::LibraAlchemy.Properties.Resources.arrow4;
             this.EffectPowerUpButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.EffectPowerUpButton.Location = new System.Drawing.Point(1008, 605);
-            this.EffectPowerUpButton.Margin = new System.Windows.Forms.Padding(7);
+            this.EffectPowerUpButton.Location = new System.Drawing.Point(576, 334);
+            this.EffectPowerUpButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EffectPowerUpButton.Name = "EffectPowerUpButton";
-            this.EffectPowerUpButton.Size = new System.Drawing.Size(103, 89);
+            this.EffectPowerUpButton.Size = new System.Drawing.Size(59, 49);
             this.EffectPowerUpButton.TabIndex = 4;
             this.EffectPowerUpButton.UseVisualStyleBackColor = true;
             this.EffectPowerUpButton.Click += new System.EventHandler(this.EffectPowerUpButton_Click);
@@ -2018,88 +2018,88 @@
             this.tabPage8.Controls.Add(this.AddPotionEffectLV);
             this.tabPage8.Controls.Add(this.label53);
             this.tabPage8.Controls.Add(this.AddPotEffectCB);
-            this.tabPage8.Location = new System.Drawing.Point(10, 28);
-            this.tabPage8.Margin = new System.Windows.Forms.Padding(7);
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(7);
-            this.tabPage8.Size = new System.Drawing.Size(2759, 1367);
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage8.Size = new System.Drawing.Size(1608, 726);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "הוספת שיקויים";
             // 
             // label55
             // 
             this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(964, 136);
-            this.label55.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label55.Location = new System.Drawing.Point(551, 75);
+            this.label55.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(228, 35);
+            this.label55.Size = new System.Drawing.Size(125, 20);
             this.label55.TabIndex = 58;
             this.label55.Text = "שם יוצר השיקוי";
             // 
             // AddPotionCreatorTB
             // 
-            this.AddPotionCreatorTB.Location = new System.Drawing.Point(660, 178);
-            this.AddPotionCreatorTB.Margin = new System.Windows.Forms.Padding(7);
+            this.AddPotionCreatorTB.Location = new System.Drawing.Point(377, 98);
+            this.AddPotionCreatorTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AddPotionCreatorTB.Name = "AddPotionCreatorTB";
-            this.AddPotionCreatorTB.Size = new System.Drawing.Size(536, 43);
+            this.AddPotionCreatorTB.Size = new System.Drawing.Size(308, 27);
             this.AddPotionCreatorTB.TabIndex = 57;
             // 
             // label56
             // 
             this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(1528, 136);
-            this.label56.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label56.Location = new System.Drawing.Point(873, 75);
+            this.label56.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(163, 35);
+            this.label56.Size = new System.Drawing.Size(90, 20);
             this.label56.TabIndex = 56;
             this.label56.Text = "שם השיקוי";
             // 
             // AddPotionNameCB
             // 
-            this.AddPotionNameCB.Location = new System.Drawing.Point(1216, 178);
-            this.AddPotionNameCB.Margin = new System.Windows.Forms.Padding(7);
+            this.AddPotionNameCB.Location = new System.Drawing.Point(695, 98);
+            this.AddPotionNameCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AddPotionNameCB.Name = "AddPotionNameCB";
-            this.AddPotionNameCB.Size = new System.Drawing.Size(475, 43);
+            this.AddPotionNameCB.Size = new System.Drawing.Size(273, 27);
             this.AddPotionNameCB.TabIndex = 55;
             this.AddPotionNameCB.TextChanged += new System.EventHandler(this.AddPotionNameCB_TextChanged);
             // 
             // label57
             // 
             this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(1491, 236);
-            this.label57.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label57.Location = new System.Drawing.Point(852, 130);
+            this.label57.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(200, 35);
+            this.label57.Size = new System.Drawing.Size(111, 20);
             this.label57.TabIndex = 54;
             this.label57.Text = "תיאור השיקוי";
             // 
             // AddPotionDescriptionTB
             // 
-            this.AddPotionDescriptionTB.Location = new System.Drawing.Point(660, 279);
-            this.AddPotionDescriptionTB.Margin = new System.Windows.Forms.Padding(7);
+            this.AddPotionDescriptionTB.Location = new System.Drawing.Point(377, 154);
+            this.AddPotionDescriptionTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AddPotionDescriptionTB.Multiline = true;
             this.AddPotionDescriptionTB.Name = "AddPotionDescriptionTB";
             this.AddPotionDescriptionTB.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.AddPotionDescriptionTB.Size = new System.Drawing.Size(1031, 301);
+            this.AddPotionDescriptionTB.Size = new System.Drawing.Size(591, 168);
             this.AddPotionDescriptionTB.TabIndex = 53;
             // 
             // label54
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("David", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(2303, 40);
-            this.label54.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label54.Location = new System.Drawing.Point(1316, 22);
+            this.label54.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(403, 65);
+            this.label54.Size = new System.Drawing.Size(223, 36);
             this.label54.TabIndex = 27;
             this.label54.Text = "הוספת שיקויים";
             // 
             // AddPotSubmitButton
             // 
-            this.AddPotSubmitButton.Location = new System.Drawing.Point(660, 610);
-            this.AddPotSubmitButton.Margin = new System.Windows.Forms.Padding(7);
+            this.AddPotSubmitButton.Location = new System.Drawing.Point(377, 337);
+            this.AddPotSubmitButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AddPotSubmitButton.Name = "AddPotSubmitButton";
-            this.AddPotSubmitButton.Size = new System.Drawing.Size(341, 103);
+            this.AddPotSubmitButton.Size = new System.Drawing.Size(195, 57);
             this.AddPotSubmitButton.TabIndex = 26;
             this.AddPotSubmitButton.Text = "צור שיקוי";
             this.AddPotSubmitButton.UseVisualStyleBackColor = true;
@@ -2111,13 +2111,13 @@
             this.columnHeader18,
             this.columnHeader19});
             this.AddPotionEffectLV.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.AddPotionEffectLV.Location = new System.Drawing.Point(1723, 246);
-            this.AddPotionEffectLV.Margin = new System.Windows.Forms.Padding(7);
+            this.AddPotionEffectLV.Location = new System.Drawing.Point(985, 136);
+            this.AddPotionEffectLV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AddPotionEffectLV.MultiSelect = false;
             this.AddPotionEffectLV.Name = "AddPotionEffectLV";
             this.AddPotionEffectLV.RightToLeftLayout = true;
             this.AddPotionEffectLV.ShowItemToolTips = true;
-            this.AddPotionEffectLV.Size = new System.Drawing.Size(972, 334);
+            this.AddPotionEffectLV.Size = new System.Drawing.Size(557, 186);
             this.AddPotionEffectLV.TabIndex = 25;
             this.AddPotionEffectLV.UseCompatibleStateImageBehavior = false;
             this.AddPotionEffectLV.View = System.Windows.Forms.View.Details;
@@ -2135,10 +2135,10 @@
             // label53
             // 
             this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(2530, 136);
-            this.label53.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label53.Location = new System.Drawing.Point(1446, 75);
+            this.label53.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(171, 35);
+            this.label53.Size = new System.Drawing.Size(94, 20);
             this.label53.TabIndex = 23;
             this.label53.Text = "בחר השפעה";
             // 
@@ -2146,22 +2146,22 @@
             // 
             this.AddPotEffectCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.AddPotEffectCB.FormattingEnabled = true;
-            this.AddPotEffectCB.Location = new System.Drawing.Point(2367, 179);
-            this.AddPotEffectCB.Margin = new System.Windows.Forms.Padding(7);
+            this.AddPotEffectCB.Location = new System.Drawing.Point(1353, 99);
+            this.AddPotEffectCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AddPotEffectCB.Name = "AddPotEffectCB";
             this.AddPotEffectCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.AddPotEffectCB.Size = new System.Drawing.Size(335, 43);
+            this.AddPotEffectCB.Size = new System.Drawing.Size(193, 28);
             this.AddPotEffectCB.TabIndex = 22;
             this.AddPotEffectCB.SelectedIndexChanged += new System.EventHandler(this.AddPotEffectCB_SelectedIndexChanged);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(2784, 1410);
+            this.ClientSize = new System.Drawing.Size(1661, 785);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(7);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Libra Alchemist";
             this.tabControl1.ResumeLayout(false);
