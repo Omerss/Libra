@@ -230,7 +230,7 @@ namespace LibraAlchemy
                         if (!final_effects[index].Commulative)
                             final_effects[index].Level = 1;
                         else
-                            final_effects[index].Level = final_effects[index].Parents[0].Level;
+                            final_effects[index].Level = final_effects[index].Parents[0].Level - 1;
                         final_effects[index].ID = entry.Value.ID;
                         final_effects[index].Name = entry.Value.Name;
                         final_effects[index].Power = entry.Value.Power;

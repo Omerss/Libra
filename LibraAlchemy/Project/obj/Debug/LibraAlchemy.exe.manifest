@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="LibraAlchemy.exe" version="1.0.0.6" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="LibraAlchemy" version="1.0.6.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="LibraAlchemy" version="1.1.1.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="LibraAlchemy.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,13 +43,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LibraAlchemy.exe" size="459264">
-      <assemblyIdentity name="LibraAlchemy" version="1.0.6.0" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="LibraAlchemy" version="1.1.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>G08c/Ozej3XcuE8aL9LFDLAZrPcMleiD//w95RWn0Yw=</dsig:DigestValue>
+        <dsig:DigestValue>b2+tREszoss4WgBH/Reyhwhub/4TvkOYBF489UMWdP8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -71,7 +71,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>8MHmEF9WJW1/Hjkxilf/6lf5/UquN15lmf3VPvorNOk=</dsig:DigestValue>
+      <dsig:DigestValue>eSFyg51Q7K5UOT9gn8pr82DI41VK4joyXuPBximPgfc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="LibraAlchemy.exe.config" size="629">
